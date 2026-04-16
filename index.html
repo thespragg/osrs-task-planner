@@ -36,11 +36,12 @@
   header {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
     padding: 9px 16px;
     background: var(--bg2);
     border-bottom: 1px solid var(--border);
     flex-shrink: 0;
+    flex-wrap: wrap;
   }
 
   header h1 { font-size: 15px; font-weight: 700; color: var(--gold); letter-spacing: 0.03em; }
@@ -363,9 +364,10 @@
   @media (max-width: 700px) {
     body { padding-bottom: 52px; }
 
-    .panel { display: none; border-right: none; }
+    .panel { display: none; border-right: none; overflow: hidden; }
     .panel.mobile-active { display: flex; flex: 1; }
 
+    .filter-bar { overflow-x: auto; flex-wrap: nowrap; }
     .filter-bar.hidden-mobile { display: none; }
 
     .task-row { padding: 10px 8px; min-height: 50px; }
