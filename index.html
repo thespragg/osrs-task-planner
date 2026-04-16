@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>League Task Planner</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #0e0c09;
+    --bg2:       #161209;
+    --bg3:       #1e1810;
+    --border:    #2e2416;
+    --border2:   #3d3020;
+    --gold:      #c8952a;
+    --gold-dim:  #7a5a18;
+    --text:      #ddd0b0;
+    --text-dim:  #7a6a4a;
+    --text-faint:#3d3020;
+    --hover:     #221c10;
+    --accent:    #c8952a;
+  }
+
+  body {
+    font-family: system-ui, sans-serif;
+    font-size: 14px;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 9px 16px;
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+
+  header h1 { font-size: 15px; font-weight: 700; color: var(--gold); letter-spacing: 0.03em; }
+
+  .import-btn {
+    padding: 4px 11px;
+    background: var(--bg3);
+    color: var(--text);
+    border: 1px solid var(--border2);
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .import-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+  #file-input { display: none; }
+
+  .filter-bar {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 7px 16px;
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+    flex-wrap: wrap;
+  }
+
+  .filter-bar input[type="text"] {
+    padding: 4px 8px;
+    background: var(--bg);
+    border: 1px solid var(--border2);
+    border-radius: 3px;
+    color: var(--text);
+    width: 200px;
+    font-size: 13px;
+  }
+  .filter-bar input[type="text"]:focus { outline: none; border-color: var(--gold-dim); }
+
+  .filter-group { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; }
+  .filter-label { font-size: 11px; color: var(--text-dim); margin-right: 2px; }
+
+  .tier-btn, .area-btn, .toggle-btn {
+    padding: 3px 8px;
+    border-radius: 3px;
+    border: 1px solid var(--border2);
+    cursor: pointer;
+    font-size: 12px;
+    background: var(--bg);
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+  .tier-btn:hover, .area-btn:hover, .toggle-btn:hover { color: var(--text); border-color: var(--gold-dim); }
+
+  .tier-btn.active { color: #fff; border-color: transparent; }
+  .tier-btn[data-tier="easy"].active   { background: #2a5a2a; }
+  .tier-btn[data-tier="medium"].active { background: #1e4070; }
+  .tier-btn[data-tier="hard"].active   { background: #6a4a08; }
+  .tier-btn[data-tier="elite"].active  { background: #50206a; }
+  .tier-btn[data-tier="master"].active { background: #6a1a1a; }
+
+  .area-btn.active  { background: #2a1e08; color: var(--gold); border-color: var(--gold-dim); }
+  .toggle-btn.active { background: #2a1e08; color: var(--gold); border-color: var(--gold-dim); }
+
+  select.sort-select {
+    padding: 3px 6px;
+    background: var(--bg);
+    border: 1px solid var(--border2);
+    border-radius: 3px;
+    color: var(--text);
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .main { display: flex; flex: 1; overflow: hidden; }
+
+  .panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-right: 1px solid var(--border);
+  }
+
+  .panel-header {
+    padding: 7px 12px;
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+  .panel-header h2 { font-size: 13px; font-weight: 600; color: var(--gold); text-transform: uppercase; letter-spacing: 0.06em; }
+
+  .panel-count { margin-left: auto; font-size: 11px; color: var(--text-dim); }
+
+  .planned-pts { font-size: 13px; font-weight: 700; color: var(--gold); margin-left: auto; }
+
+  /* Relic progress bar */
+  .relic-progress {
+    padding: 8px 16px 10px;
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+  .relic-labels {
+    display: flex;
+    position: relative;
+    height: 16px;
+    margin-bottom: 3px;
+  }
+  .tier-label {
+    position: absolute;
+    transform: translateX(-50%);
+    font-size: 10px;
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+  .tier-label.earned { color: var(--gold); font-weight: 600; }
+  .relic-track {
+    position: relative;
+    height: 10px;
+    background: var(--bg);
+    border: 1px solid var(--border2);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .relic-track-earned {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    background: var(--gold);
+    border-radius: 5px 0 0 5px;
+    transition: width 0.2s;
+  }
+  .relic-track-planned {
+    position: absolute;
+    top: 0; bottom: 0;
+    background: #6a4a12;
+    transition: left 0.2s, width 0.2s;
+  }
+  .relic-marker {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 1px;
+    background: var(--border2);
+  }
+  .relic-summary {
+    margin-top: 5px;
+    font-size: 11px;
+    color: var(--text-dim);
+    display: flex;
+    gap: 14px;
+  }
+  .relic-summary .earned-txt { color: var(--gold); }
+  .relic-summary .planned-txt { color: #9a6a1a; }
+  .relic-summary .next-txt { color: var(--text-dim); }
+
+  .panel-body { flex: 1; overflow-y: auto; padding: 6px; }
+
+  /* Region groups (planned panel) */
+  .region-group { margin-bottom: 4px; }
+  .region-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 8px;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .region-header:hover { color: var(--text); border-color: var(--border2); }
+  .region-toggle { font-size: 9px; }
+  .region-tasks.collapsed { display: none; }
+
+  /* ── Task rows ── */
+  .task-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 7px 8px;
+    border-radius: 3px;
+    border-bottom: 1px solid var(--border);
+    cursor: default;
+  }
+  .task-row:hover { background: var(--hover); }
+  .task-row.dragging { opacity: 0.4; }
+  .task-row.drag-over { border-top: 2px solid var(--gold); }
+
+  .tier-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 4px;
+  }
+  .tier-dot.easy   { background: #5dba5d; }
+  .tier-dot.medium { background: #4a90d4; }
+  .tier-dot.hard   { background: #c8920a; }
+  .tier-dot.elite  { background: #a050c8; }
+  .tier-dot.master { background: #c84040; }
+
+  /* Remaining row: expanded info block */
+  .task-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+  .task-name { font-size: 13px; color: var(--text); line-height: 1.3; }
+  .task-detail { font-size: 11px; color: var(--text-dim); line-height: 1.3; }
+  .task-reqs { font-size: 11px; color: #8a6a20; line-height: 1.3; }
+  .task-reqs.locked-req { color: #b84040; }
+
+  /* Meta column (region + pts) */
+  .task-meta {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px;
+    padding-top: 1px;
+  }
+  .task-region { font-size: 10px; color: var(--text-faint); text-transform: capitalize; }
+
+  .task-pts { font-size: 12px; font-weight: 700; }
+  .tier-easy   { color: #5dba5d; }
+  .tier-medium { color: #4a90d4; }
+  .tier-hard   { color: #c8920a; }
+  .tier-elite  { color: #a050c8; }
+  .tier-master { color: #c84040; }
+
+  .task-move-btn {
+    background: none;
+    border: 1px solid var(--border2);
+    border-radius: 3px;
+    color: var(--text-dim);
+    padding: 2px 6px;
+    cursor: pointer;
+    font-size: 13px;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  .task-move-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+  .drag-handle { color: var(--border2); cursor: grab; font-size: 12px; flex-shrink: 0; margin-top: 2px; }
+  .drag-handle:active { cursor: grabbing; }
+
+  /* Locked / completed states */
+  .task-row.locked { opacity: 0.5; }
+  .task-row.locked .task-name { color: var(--text-dim); }
+  .task-row.completed { opacity: 0.3; }
+  .task-row.completed .task-name { text-decoration: line-through; color: #5a8a5a; }
+  .task-row.hidden-task { opacity: 0.4; }
+  .task-row.hidden-task .task-name { color: var(--text-dim); }
+
+  .empty-msg { padding: 24px; text-align: center; color: var(--text-faint); font-size: 13px; }
+
+  /* Manual/note task rows */
+  .task-row.manual { background: #1a1408; }
+  .task-row.manual:hover { background: #221c0e; }
+  .task-row.manual .task-name { color: var(--gold); font-style: italic; }
+  .note-icon { font-size: 11px; color: var(--gold-dim); flex-shrink: 0; margin-top: 2px; }
+
+  /* Sequence number */
+  .seq-num { font-size: 10px; color: var(--text-faint); min-width: 18px; text-align: right; flex-shrink: 0; margin-top: 3px; }
+
+  /* Note input bar */
+  .note-bar {
+    display: flex;
+    gap: 6px;
+    padding: 6px 8px;
+    background: var(--bg2);
+    border-top: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+  .note-bar input {
+    flex: 1;
+    padding: 4px 8px;
+    background: var(--bg);
+    border: 1px solid var(--border2);
+    border-radius: 3px;
+    color: var(--text);
+    font-size: 12px;
+    font-style: italic;
+  }
+  .note-bar input:focus { outline: none; border-color: var(--gold-dim); }
+  .note-bar button {
+    padding: 4px 10px;
+    background: var(--bg3);
+    border: 1px solid var(--border2);
+    border-radius: 3px;
+    color: var(--gold);
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .note-bar button:hover { border-color: var(--gold); }
+
+  ::-webkit-scrollbar { width: 5px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>League Task Planner</h1>
+  <button class="import-btn" onclick="document.getElementById('file-input').click()">Import tasks.json</button>
+  <input type="file" id="file-input" accept=".json" onchange="importFile(event)">
+  <div style="display:flex;align-items:center;gap:4px;">
+    <input id="username-input" type="text" placeholder="RSN" style="padding:4px 8px;background:var(--bg);border:1px solid var(--border2);border-radius:3px;color:var(--text);width:120px;font-size:13px;">
+    <button class="import-btn" onclick="syncProgress()">Sync Progress</button>
+  </div>
+  <span id="load-status" style="font-size:12px;color:var(--text-dim);"></span>
+  <span id="progress-status" style="font-size:12px;color:#5dba5d;margin-left:4px;"></span>
+</header>
+
+<div class="filter-bar">
+  <input type="text" id="search" placeholder="Search tasks..." oninput="render()">
+  <div class="filter-group">
+    <span class="filter-label">Sort:</span>
+    <select class="sort-select" id="sort-select" onchange="sortMode=this.value;saveState();render()">
+      <option value="default">Default</option>
+      <option value="comp">Comp % ↑</option>
+      <option value="points">Points ↓</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">Tier:</span>
+    <div class="filter-group" id="tier-filters"></div>
+  </div>
+  <div class="filter-group" id="area-filter-group" style="display:none">
+    <span class="filter-label">Area:</span>
+    <div class="filter-group" id="area-filters"></div>
+  </div>
+  <div class="filter-group" style="margin-left:auto;gap:6px;">
+    <button class="toggle-btn" id="btn-hide-locked" onclick="toggleHideLocked()">Hide Locked</button>
+    <button class="toggle-btn" id="btn-show-completed" onclick="toggleShowCompleted()">Show Completed</button>
+    <button class="toggle-btn" id="btn-show-hidden" onclick="toggleShowHidden()">Show Hidden</button>
+  </div>
+</div>
+
+<div class="relic-progress" id="relic-progress" style="display:none">
+  <div class="relic-labels" id="relic-labels"></div>
+  <div class="relic-track" id="relic-track">
+    <div class="relic-track-earned" id="bar-earned"></div>
+    <div class="relic-track-planned" id="bar-planned"></div>
+  </div>
+  <div class="relic-summary" id="relic-summary"></div>
+</div>
+
+<div class="main">
+  <div class="panel">
+    <div class="panel-header">
+      <h2>Remaining</h2>
+      <span class="panel-count" id="remaining-count"></span>
+    </div>
+    <div style="padding:4px 12px;background:var(--bg2);border-bottom:1px solid var(--border);font-size:11px;color:var(--text-dim);flex-shrink:0;" id="remaining-pts-bar"></div>
+    <div class="panel-body" id="remaining-list"></div>
+  </div>
+
+  <div class="panel" style="border-right:none;">
+    <div class="panel-header">
+      <h2>Planned</h2>
+      <span class="planned-pts" id="planned-pts">0 pts</span>
+    </div>
+    <div class="panel-body" id="planned-list"></div>
+    <div class="note-bar">
+      <input type="text" id="note-input" placeholder="Add a note or reminder..."
+        onkeydown="if(event.key==='Enter') addManualTask()">
+      <button onclick="addManualTask()">+ Note</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  let allTasks = [];
+  let planned = [];           // ordered IDs — negative = manual task
+  let manualTasks = {};       // id (negative) → { id, name, note }
+  let nextManualId = -1;
+  let completedIds = new Set();
+  let manuallyCompleted = new Set(); // cleared on next sync
+  let hiddenIds = new Set();         // manually hidden from remaining
+  let showHidden = false;
+  let playerLevels = {};        // { Skill: level } from wikisync
+  let playerQuests = {};        // { "Quest Name": 0|2 } from wikisync
+  let collapsedRegions = {};
+  let activeTiers = new Set(["easy","medium","hard","elite","master"]);
+  let activeAreas = new Set();
+  let sortMode = "default";     // "default" | "comp" | "points"
+  let hideLocked = false;
+  let showCompleted = false;
+  let dragSrcId = null;
+
+  const RELIC_THRESHOLDS = [0, 600, 1200, 2600, 5200, 8500, 16500, 28000];
+
+  const SKILLS = ["Attack","Defence","Strength","Hitpoints","Ranged","Prayer","Magic",
+    "Cooking","Woodcutting","Fletching","Fishing","Firemaking","Crafting","Smithing",
+    "Mining","Herblore","Agility","Thieving","Slayer","Farming","Runecraft","Hunter","Construction"];
+
+  const SKILL_RE = new RegExp(`(${SKILLS.join("|")})[^\\d]*(\\d+)|(\\d+)[^a-zA-Z]*(${SKILLS.join("|")})`, "gi");
+
+  function canDoTask(task) {
+    if (!task.requirements || !Object.keys(playerLevels).length) return true;
+    const req = task.requirements;
+    // Split on " or " to handle alternative requirement branches
+    const branches = req.split(/\s+or\s+/i);
+    return branches.some(branch => {
+      SKILL_RE.lastIndex = 0;
+      let match, met = true, found = false;
+      while ((match = SKILL_RE.exec(branch)) !== null) {
+        found = true;
+        const skill = match[1] || match[4];
+        const level = parseInt(match[2] || match[3]);
+        const playerLevel = playerLevels[skill] || 1;
+        if (playerLevel < level) { met = false; break; }
+      }
+      return !found || met;
+    });
+  }
+
+  // ── Import ────────────────────────────────────────────────────────────────
+
+  function importFile(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    const r = new FileReader();
+    r.onload = ev => {
+      try { loadTasks(JSON.parse(ev.target.result)); }
+      catch(err) { alert("Invalid JSON: " + err.message); }
+    };
+    r.readAsText(file);
+    e.target.value = "";
+  }
+
+  function loadTasks(data) {
+    allTasks = data;
+    const ids = new Set(data.map(t => t.id));
+    planned = planned.filter(id => id < 0 || (ids.has(id) && !completedIds.has(id)));
+    document.getElementById("load-status").textContent = `${data.length} tasks loaded`;
+    initAreaFilters();
+    render();
+  }
+
+  function syncProgress() {
+    const username = document.getElementById("username-input").value.trim();
+    if (!username) return;
+    const status = document.getElementById("progress-status");
+    status.textContent = "Syncing...";
+    status.style.color = "#888";
+    fetch(`https://sync.runescape.wiki/runelite/player/${encodeURIComponent(username)}/DEMONIC_PACTS_LEAGUE`)
+      .then(r => { if (!r.ok) throw new Error(`${r.status}`); return r.json(); })
+      .then(data => applyProgress(data, username))
+      .catch(err => {
+        status.textContent = `Sync failed: ${err.message}`;
+        status.style.color = "#b84040";
+      });
+  }
+
+  function applyProgress(data, username) {
+    if (!data.league_tasks) {
+      document.getElementById("progress-status").textContent = "No league_tasks in response";
+      return;
+    }
+    completedIds = new Set(data.league_tasks);
+    manuallyCompleted.clear();   // real data supersedes manual marks
+    playerLevels = data.levels || {};
+    playerQuests = data.quests || {};
+    planned = planned.filter(id => !completedIds.has(id));
+    const status = document.getElementById("progress-status");
+    status.textContent = `${completedIds.size} completed (${username || ""})`;
+    status.style.color = "#6abf69";
+    saveState();
+    render();
+  }
+
+  function toggleHideLocked() {
+    hideLocked = !hideLocked;
+    document.getElementById("btn-hide-locked").classList.toggle("active", hideLocked);
+    saveState(); render();
+  }
+
+  function toggleShowCompleted() {
+    showCompleted = !showCompleted;
+    document.getElementById("btn-show-completed").classList.toggle("active", showCompleted);
+    saveState(); render();
+  }
+
+  function toggleShowHidden() {
+    showHidden = !showHidden;
+    document.getElementById("btn-show-hidden").classList.toggle("active", showHidden);
+    saveState(); render();
+  }
+
+  function lookupTask(id) {
+    return id < 0 ? manualTasks[id] : allTasks.find(t => t.id === id);
+  }
+
+  function addManualTask() {
+    const input = document.getElementById("note-input");
+    const name = input.value.trim();
+    if (!name) return;
+    const id = nextManualId--;
+    manualTasks[id] = { id, name, isManual: true, points: 0 };
+    planned.push(id);
+    input.value = "";
+    render();
+  }
+
+  // ── Filter buttons ────────────────────────────────────────────────────────
+
+  function initTierFilters() {
+    const tiers = ["easy","medium","hard","elite","master"];
+    const container = document.getElementById("tier-filters");
+    tiers.forEach(t => {
+      const btn = document.createElement("button");
+      btn.className = "tier-btn active";
+      btn.dataset.tier = t;
+      btn.textContent = t[0].toUpperCase() + t.slice(1);
+      btn.onclick = () => {
+        if (activeTiers.has(t)) activeTiers.delete(t);
+        else activeTiers.add(t);
+        btn.classList.toggle("active");
+        render();
+      };
+      container.appendChild(btn);
+    });
+  }
+
+  function initAreaFilters() {
+    const regions = [...new Set(allTasks.map(t => t.region))].sort();
+    // Restore saved areas; default to all active for new regions
+    const savedAreaSet = saved.activeAreas ? new Set(saved.activeAreas) : null;
+    activeAreas = new Set(savedAreaSet ? regions.filter(r => savedAreaSet.has(r)) : regions);
+
+    const container = document.getElementById("area-filters");
+    container.innerHTML = "";
+    regions.forEach(r => {
+      const btn = document.createElement("button");
+      btn.className = "area-btn" + (activeAreas.has(r) ? " active" : "");
+      btn.dataset.area = r;
+      btn.textContent = capitalize(r);
+      btn.onclick = () => {
+        if (activeAreas.has(r)) activeAreas.delete(r);
+        else activeAreas.add(r);
+        btn.classList.toggle("active");
+        render();
+      };
+      container.appendChild(btn);
+    });
+
+    document.getElementById("area-filter-group").style.display = "";
+  }
+
+  // ── Render ────────────────────────────────────────────────────────────────
+
+  function render() {
+    saveState();
+    const query = document.getElementById("search").value.toLowerCase();
+    const plannedSet = new Set(planned);
+
+    const baseFilter = t =>
+      !plannedSet.has(t.id) &&
+      !completedIds.has(t.id) &&
+      !manuallyCompleted.has(t.id) &&
+      activeTiers.has(t.tier) &&
+      activeAreas.has(t.region) &&
+      (!query || t.name.toLowerCase().includes(query) ||
+                 t.description.toLowerCase().includes(query));
+
+    // Include hidden tasks in the pool so they keep their sorted position;
+    // filter them out unless showHidden is on
+    let remaining = allTasks.filter(t => baseFilter(t) && (!hiddenIds.has(t.id) || showHidden));
+
+    // Apply sort
+    if (sortMode === "comp") {
+      remaining = [...remaining].sort((a, b) => {
+        const pa = parseFloat(a.comp_pct) || 0;
+        const pb = parseFloat(b.comp_pct) || 0;
+        return pb - pa;
+      });
+    } else if (sortMode === "points") {
+      remaining = [...remaining].sort((a, b) => b.points - a.points || a.tier_order - b.tier_order);
+    }
+
+    // Split locked/unlocked for hide-locked mode
+    const locked = remaining.filter(t => !canDoTask(t));
+    const unlocked = remaining.filter(t => canDoTask(t));
+    const visible = hideLocked ? unlocked : remaining;
+
+    // Remaining pts bar
+    const totalPts = remaining.reduce((s, t) => s + t.points, 0);
+    const unlockedPts = unlocked.reduce((s, t) => s + t.points, 0);
+    const bar = document.getElementById("remaining-pts-bar");
+    if (remaining.length) {
+      bar.style.display = "";
+      bar.textContent = hideLocked
+        ? `${unlockedPts.toLocaleString()} pts available · ${locked.length} locked tasks hidden`
+        : `${totalPts.toLocaleString()} pts remaining · ${locked.length} locked`;
+    } else {
+      bar.style.display = "none";
+    }
+
+    // Completed tasks to optionally show
+    const completedToShow = showCompleted
+      ? allTasks.filter(t =>
+          (completedIds.has(t.id) || manuallyCompleted.has(t.id)) &&
+          activeTiers.has(t.tier) &&
+          activeAreas.has(t.region) &&
+          (!query || t.name.toLowerCase().includes(query) || t.description.toLowerCase().includes(query))
+        )
+      : [];
+
+    // Update hidden toggle label with count
+    const hiddenBtn = document.getElementById("btn-show-hidden");
+    hiddenBtn.textContent = hiddenIds.size ? `Show Hidden (${hiddenIds.size})` : "Show Hidden";
+
+    renderRemaining(visible, locked, completedToShow);
+    renderPlanned();
+  }
+
+  function renderRemaining(tasks, lockedTasks, completedTasks) {
+    const el = document.getElementById("remaining-list");
+    const visibleCount = tasks.filter(t => !hiddenIds.has(t.id)).length;
+    document.getElementById("remaining-count").textContent = `${visibleCount} tasks`;
+
+    el.innerHTML = "";
+
+    if (tasks.length === 0 && completedTasks.length === 0) {
+      el.innerHTML = '<div class="empty-msg">No tasks</div>';
+      return;
+    }
+
+    for (const task of tasks) {
+      el.appendChild(makeRemainingRow(task, !canDoTask(task) && !hideLocked, false, hiddenIds.has(task.id)));
+    }
+
+    if (completedTasks.length) {
+      const sep = document.createElement("div");
+      sep.style.cssText = "padding:8px 8px 2px;font-size:11px;color:#5a8a5a;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;";
+      sep.textContent = `✓ Completed (${completedTasks.length})`;
+      el.appendChild(sep);
+      for (const task of completedTasks) {
+        el.appendChild(makeRemainingRow(task, false, true, false));
+      }
+    }
+
+  }
+
+  function makeRemainingRow(task, isLocked = false, isCompleted = false, isHidden = false) {
+    const row = document.createElement("div");
+    row.className = "task-row" + (isLocked ? " locked" : "") + (isCompleted ? " completed" : "") + (isHidden ? " hidden-task" : "");
+
+    const reqHtml = task.requirements
+      ? `<span class="task-reqs${isLocked ? " locked-req" : ""}">${isLocked ? "⚠ " : ""}${escHtml(task.requirements)}</span>`
+      : "";
+
+    const actions = isCompleted ? "" : isHidden
+      ? `<button class="task-move-btn" title="Unhide">↩</button>`
+      : `<button class="task-move-btn hide-btn" title="Hide task">–</button>
+         <button class="task-move-btn" title="Add to plan">+</button>`;
+
+    row.innerHTML = `
+      <span class="tier-dot ${task.tier}"></span>
+      <div class="task-info">
+        <span class="task-name">${escHtml(task.name)}</span>
+        <span class="task-detail">${escHtml(task.description)}</span>
+        ${reqHtml}
+      </div>
+      <div class="task-meta">
+        <span class="task-region">${capitalize(task.region)}</span>
+        <span class="task-pts tier-${task.tier}">${task.points}</span>
+      </div>
+      ${actions}
+    `;
+
+    if (isHidden) {
+      row.querySelector(".task-move-btn").onclick = (e) => {
+        e.stopPropagation();
+        hiddenIds.delete(task.id);
+        render();
+      };
+    } else if (!isCompleted) {
+      row.querySelector(".hide-btn").onclick = (e) => {
+        e.stopPropagation();
+        hiddenIds.add(task.id);
+        render();
+      };
+      row.querySelector(".task-move-btn:last-child").onclick = (e) => {
+        e.stopPropagation();
+        planned.push(task.id);
+        render();
+      };
+    }
+    return row;
+  }
+
+  function renderPlanned() {
+    const el = document.getElementById("planned-list");
+
+    const plannedTasks = planned.map(id => lookupTask(id)).filter(Boolean);
+    const totalPts = plannedTasks.reduce((s, t) => s + (t.points || 0), 0);
+
+    document.getElementById("planned-pts").textContent = `${totalPts.toLocaleString()} pts`;
+    updateRelicBar(totalPts);
+
+    if (plannedTasks.length === 0) {
+      el.innerHTML = '<div class="empty-msg">Add tasks from Remaining →</div>';
+      return;
+    }
+
+    el.innerHTML = "";
+    plannedTasks.forEach((task, i) => {
+      el.appendChild(makePlannedRow(task, i + 1));
+    });
+  }
+
+  function makePlannedRow(task, seq) {
+    const isManual = !!task.isManual;
+    const row = document.createElement("div");
+    row.className = "task-row" + (isManual ? " manual" : "");
+    row.draggable = true;
+    row.dataset.id = task.id;
+
+    if (isManual) {
+      row.innerHTML = `
+        <span class="drag-handle">⠿</span>
+        <span class="seq-num">${seq}</span>
+        <span class="note-icon">✎</span>
+        <span class="task-name" style="flex:1">${escHtml(task.name)}</span>
+        <button class="task-move-btn" title="Remove">✕</button>
+      `;
+    } else {
+      row.title = task.description + (task.requirements ? "\nReq: " + task.requirements : "");
+      row.innerHTML = `
+        <span class="drag-handle">⠿</span>
+        <span class="seq-num">${seq}</span>
+        <span class="tier-dot ${task.tier}"></span>
+        <div class="task-info" style="flex:1;min-width:0">
+          <span class="task-name">${escHtml(task.name)}</span>
+          <span class="task-detail" style="font-size:10px">${capitalize(task.region)}</span>
+        </div>
+        <span class="task-pts tier-${task.tier}">${task.points}</span>
+        <button class="task-move-btn done-btn" title="Mark as done">✓</button>
+        <button class="task-move-btn" title="Remove from plan">✕</button>
+      `;
+    }
+
+    if (!isManual) {
+      row.querySelector(".done-btn").onclick = (e) => {
+        e.stopPropagation();
+        manuallyCompleted.add(task.id);
+        planned = planned.filter(id => id !== task.id);
+        render();
+      };
+    }
+    row.querySelector(".task-move-btn:last-child").onclick = (e) => {
+      e.stopPropagation();
+      planned = planned.filter(id => id !== task.id);
+      if (isManual) delete manualTasks[task.id];
+      render();
+    };
+
+    row.addEventListener("dragstart", e => {
+      dragSrcId = task.id;
+      e.dataTransfer.effectAllowed = "move";
+      setTimeout(() => row.classList.add("dragging"), 0);
+    });
+    row.addEventListener("dragend", () => {
+      row.classList.remove("dragging");
+      document.querySelectorAll(".drag-over").forEach(el => el.classList.remove("drag-over"));
+    });
+    row.addEventListener("dragover", e => {
+      e.preventDefault();
+      document.querySelectorAll(".drag-over").forEach(el => el.classList.remove("drag-over"));
+      if (dragSrcId !== task.id) row.classList.add("drag-over");
+    });
+    row.addEventListener("drop", e => {
+      e.preventDefault();
+      if (dragSrcId === null || dragSrcId === task.id) return;
+      const srcIdx = planned.indexOf(dragSrcId);
+      const dstIdx = planned.indexOf(task.id);
+      planned.splice(srcIdx, 1);
+      planned.splice(dstIdx, 0, dragSrcId);
+      dragSrcId = null;
+      render();
+    });
+
+    return row;
+  }
+
+  // ── Relic progress bar ───────────────────────────────────────────────────
+
+  function updateRelicBar(plannedPts) {
+    const MAX = RELIC_THRESHOLDS[RELIC_THRESHOLDS.length - 1];
+
+    // Sum points from completed tasks
+    const earnedPts = allTasks
+      .filter(t => completedIds.has(t.id))
+      .reduce((s, t) => s + t.points, 0);
+
+    if (earnedPts === 0 && plannedPts === 0 && allTasks.length === 0) {
+      document.getElementById("relic-progress").style.display = "none";
+      return;
+    }
+    document.getElementById("relic-progress").style.display = "";
+
+    const earnedCapped  = Math.min(earnedPts, MAX);
+    const plannedCapped = Math.min(plannedPts, MAX - earnedCapped);
+    const earnedPct  = (earnedCapped  / MAX) * 100;
+    const plannedPct = (plannedCapped / MAX) * 100;
+
+    document.getElementById("bar-earned").style.width  = earnedPct + "%";
+    document.getElementById("bar-planned").style.left  = earnedPct + "%";
+    document.getElementById("bar-planned").style.width = plannedPct + "%";
+
+    // Tier labels + markers
+    const track = document.getElementById("relic-track");
+    const labelsEl = document.getElementById("relic-labels");
+
+    // Clear old markers (keep the two bar divs)
+    track.querySelectorAll(".relic-marker").forEach(el => el.remove());
+    labelsEl.innerHTML = "";
+
+    RELIC_THRESHOLDS.forEach((threshold, i) => {
+      const pct = (threshold / MAX) * 100;
+      const tierNum = i + 1;
+      const isEarned = earnedPts >= threshold;
+      const isPlanned = !isEarned && (earnedPts + plannedPts) >= threshold;
+
+      // Marker line on track (skip 0 and max — those are the edges)
+      if (threshold > 0 && threshold < MAX) {
+        const marker = document.createElement("div");
+        marker.className = "relic-marker";
+        marker.style.left = pct + "%";
+        track.appendChild(marker);
+      }
+
+      // Label
+      const label = document.createElement("div");
+      label.className = "tier-label" + (isEarned ? " earned" : isPlanned ? " planned-tier" : "");
+      label.style.left = pct + "%";
+      label.style.color = isEarned ? "var(--gold)" : isPlanned ? "#9a6a1a" : "var(--text-faint)";
+      label.textContent = `T${tierNum}`;
+      labelsEl.appendChild(label);
+    });
+
+    // Summary text
+    const totalPts = earnedPts + plannedPts;
+    const currentTier = RELIC_THRESHOLDS.filter(t => earnedPts >= t).length;
+    const projectedTier = RELIC_THRESHOLDS.filter(t => totalPts >= t).length;
+    const nextThreshold = RELIC_THRESHOLDS.find(t => t > totalPts);
+
+    const summaryEl = document.getElementById("relic-summary");
+    summaryEl.innerHTML = `
+      <span class="earned-txt">${earnedPts.toLocaleString()} pts earned · Tier ${currentTier}</span>
+      <span class="planned-txt">+${plannedPts.toLocaleString()} planned → Tier ${projectedTier}</span>
+      ${nextThreshold ? `<span class="next-txt">Tier ${projectedTier + 1} needs ${(nextThreshold - totalPts).toLocaleString()} more</span>` : `<span class="next-txt">Max tier reached</span>`}
+    `;
+  }
+
+  // ── Persist ───────────────────────────────────────────────────────────────
+
+  function saveState() {
+    localStorage.setItem("planner_state", JSON.stringify({
+      planned,
+      manualTasks,
+      nextManualId,
+      activeAreas: [...activeAreas],
+      completedIds: [...completedIds],
+      manuallyCompleted: [...manuallyCompleted],
+      hiddenIds: [...hiddenIds],
+      showHidden,
+      playerLevels,
+      playerQuests,
+      sortMode,
+      hideLocked,
+      showCompleted,
+      username: document.getElementById("username-input")?.value.trim() || "",
+    }));
+  }
+
+  function loadState() {
+    try {
+      const raw = localStorage.getItem("planner_state");
+      if (!raw) return {};
+      return JSON.parse(raw);
+    } catch { return {}; }
+  }
+
+  // ── Utils ─────────────────────────────────────────────────────────────────
+
+  function capitalize(s) {
+    return s.replace(/\b\w/g, c => c.toUpperCase());
+  }
+
+  function escHtml(s) {
+    return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  }
+
+  // ── Init ──────────────────────────────────────────────────────────────────
+
+  const saved = loadState();
+  if (saved.planned) planned = saved.planned;
+  if (saved.manualTasks) manualTasks = saved.manualTasks;
+  if (saved.nextManualId) nextManualId = saved.nextManualId;
+  if (saved.completedIds) completedIds = new Set(saved.completedIds);
+  if (saved.manuallyCompleted) manuallyCompleted = new Set(saved.manuallyCompleted);
+  if (saved.hiddenIds) hiddenIds = new Set(saved.hiddenIds);
+  if (saved.showHidden) { showHidden = saved.showHidden; document.getElementById("btn-show-hidden").classList.toggle("active", showHidden); }
+  if (saved.playerLevels) playerLevels = saved.playerLevels;
+  if (saved.playerQuests) playerQuests = saved.playerQuests;
+  if (saved.sortMode) { sortMode = saved.sortMode; document.getElementById("sort-select").value = sortMode; }
+  if (saved.hideLocked) { hideLocked = saved.hideLocked; document.getElementById("btn-hide-locked").classList.toggle("active", hideLocked); }
+  if (saved.showCompleted) { showCompleted = saved.showCompleted; document.getElementById("btn-show-completed").classList.toggle("active", showCompleted); }
+  if (saved.username) {
+    document.getElementById("username-input").value = saved.username;
+    if (completedIds.size)
+      document.getElementById("progress-status").textContent =
+        `${completedIds.size} completed (${saved.username})`;
+  }
+
+  initTierFilters();
+
+  // Auto-load tasks.json and progress.json if served from a local server
+  fetch("tasks.json")
+    .then(r => r.ok ? r.json() : Promise.reject())
+    .then(data => loadTasks(data))
+    .catch(() => {
+      document.getElementById("load-status").textContent =
+        "Use Import to load tasks.json";
+    });
+
+  // Auto-sync if username is saved
+  if (saved.username) syncProgress();
+</script>
+</body>
+</html>
