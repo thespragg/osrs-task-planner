@@ -8,7 +8,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "99 Attack or  99 Strength or a combined Attack and Strength level of 130",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.2"
   },
   {
     "id": 114,
@@ -19,7 +19,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "42.4"
   },
   {
     "id": 126,
@@ -30,7 +30,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "40 Combat level",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.1"
   },
   {
     "id": 134,
@@ -41,7 +41,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "9.8"
   },
   {
     "id": 142,
@@ -52,7 +52,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "51.6"
   },
   {
     "id": 149,
@@ -63,7 +63,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "48.8"
   },
   {
     "id": 155,
@@ -74,7 +74,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "75.3"
   },
   {
     "id": 167,
@@ -85,7 +85,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "56.8"
   },
   {
     "id": 174,
@@ -107,7 +107,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "46.7"
   },
   {
     "id": 205,
@@ -118,7 +118,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "53.5"
   },
   {
     "id": 466,
@@ -129,7 +129,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "83 Hunter or both  80 Crafting and  68 MagicCompletion of   Heroes' Quest",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.2"
   },
   {
     "id": 490,
@@ -140,7 +140,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "70 Combat level",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.8"
   },
   {
     "id": 491,
@@ -173,7 +173,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "See   Falador Diary#Easy",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.5"
   },
   {
     "id": 504,
@@ -184,7 +184,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "44.1"
   },
   {
     "id": 508,
@@ -206,7 +206,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "9.1"
   },
   {
     "id": 518,
@@ -228,7 +228,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "20 Runecraft",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.2"
   },
   {
     "id": 530,
@@ -239,7 +239,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Combat level",
-    "comp_pct": "<0.1"
+    "comp_pct": "2"
   },
   {
     "id": 537,
@@ -250,7 +250,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "42.9"
   },
   {
     "id": 542,
@@ -261,7 +261,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "49.2"
   },
   {
     "id": 560,
@@ -272,7 +272,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "72 Slayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 535,
@@ -283,7 +283,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Either  99 Attack,  99 Strength, or 130 combined  Attack and  Strength",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 574,
@@ -294,7 +294,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "11.1"
   },
   {
     "id": 575,
@@ -327,7 +327,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "9.2"
   },
   {
     "id": 578,
@@ -349,7 +349,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Crafting",
-    "comp_pct": "<0.1"
+    "comp_pct": "39"
   },
   {
     "id": 594,
@@ -360,7 +360,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 616,
@@ -371,7 +371,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "14 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 633,
@@ -393,7 +393,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "9 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.9"
   },
   {
     "id": 643,
@@ -415,7 +415,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.7"
   },
   {
     "id": 654,
@@ -426,7 +426,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.9"
   },
   {
     "id": 666,
@@ -437,7 +437,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 667,
@@ -448,7 +448,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.8"
   },
   {
     "id": 686,
@@ -459,7 +459,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.6"
   },
   {
     "id": 707,
@@ -470,7 +470,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.4"
   },
   {
     "id": 709,
@@ -481,7 +481,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "99 Attack or  99 Strength or a combined Attack and Strength level of 130",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.9"
   },
   {
     "id": 713,
@@ -503,7 +503,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "43.5"
   },
   {
     "id": 871,
@@ -514,7 +514,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "62 PrayerDeadeye prayer scroll",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 872,
@@ -525,7 +525,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "63 PrayerMystic vigour prayer scroll",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 913,
@@ -547,7 +547,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "54 Runecraft",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 945,
@@ -624,7 +624,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "70 Strength",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.9"
   },
   {
     "id": 964,
@@ -635,7 +635,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "70 Hitpoints",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.5"
   },
   {
     "id": 965,
@@ -646,7 +646,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "70 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 969,
@@ -690,7 +690,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "9.2"
   },
   {
     "id": 993,
@@ -734,7 +734,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "60 DefenceAccess to the   Warriors' Guild",
-    "comp_pct": "<0.1"
+    "comp_pct": "21.5"
   },
   {
     "id": 1065,
@@ -756,7 +756,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "50 Thieving,  50 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "6.3"
   },
   {
     "id": 1070,
@@ -800,7 +800,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "Varies, see Graceful outfit \u00a7 Recolouring.",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.4"
   },
   {
     "id": 1085,
@@ -855,7 +855,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "10 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.1"
   },
   {
     "id": 1159,
@@ -965,7 +965,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.3"
   },
   {
     "id": 1445,
@@ -1031,7 +1031,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "70 Strength,  65 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1458,
@@ -1174,7 +1174,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "30 FishingPartial completion of   Spirits of the Elid",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.6"
   },
   {
     "id": 128,
@@ -1185,7 +1185,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "20 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "59"
   },
   {
     "id": 132,
@@ -1196,7 +1196,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "14 Runecraft",
-    "comp_pct": "<0.1"
+    "comp_pct": "3"
   },
   {
     "id": 136,
@@ -1207,7 +1207,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "50"
   },
   {
     "id": 141,
@@ -1218,7 +1218,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "46.3"
   },
   {
     "id": 159,
@@ -1229,7 +1229,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "61.2"
   },
   {
     "id": 139,
@@ -1240,7 +1240,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "35 Fishing",
-    "comp_pct": "<0.1"
+    "comp_pct": "34"
   },
   {
     "id": 164,
@@ -1251,7 +1251,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "20.9"
   },
   {
     "id": 181,
@@ -1262,7 +1262,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "19"
   },
   {
     "id": 183,
@@ -1273,7 +1273,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "35.4"
   },
   {
     "id": 187,
@@ -1284,7 +1284,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "21 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "47.8"
   },
   {
     "id": 188,
@@ -1295,7 +1295,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "31 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "46.6"
   },
   {
     "id": 189,
@@ -1306,7 +1306,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "41 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "44.4"
   },
   {
     "id": 191,
@@ -1317,7 +1317,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "13 Magic or  Tirannwn\u2713 for access to oily cloth",
-    "comp_pct": "<0.1"
+    "comp_pct": "60.8"
   },
   {
     "id": 193,
@@ -1328,7 +1328,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "51.5"
   },
   {
     "id": 201,
@@ -1339,7 +1339,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "44.4"
   },
   {
     "id": 452,
@@ -1350,7 +1350,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "70 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "38.1"
   },
   {
     "id": 453,
@@ -1361,7 +1361,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "58 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "37.7"
   },
   {
     "id": 456,
@@ -1372,7 +1372,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "47 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.8"
   },
   {
     "id": 473,
@@ -1405,7 +1405,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "15 Smithing",
-    "comp_pct": "<0.1"
+    "comp_pct": "14.9"
   },
   {
     "id": 484,
@@ -1416,7 +1416,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "33 Magic,  37 Ranged,  37 Mining,  37 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.7"
   },
   {
     "id": 497,
@@ -1427,7 +1427,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "See   Desert Diary#Easy",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.6"
   },
   {
     "id": 485,
@@ -1438,7 +1438,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "20 Crafting,  25 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "100"
   },
   {
     "id": 507,
@@ -1460,7 +1460,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "23 Runecraft",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 524,
@@ -1471,7 +1471,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "9.3"
   },
   {
     "id": 526,
@@ -1493,7 +1493,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "14.9"
   },
   {
     "id": 550,
@@ -1504,7 +1504,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "28.4"
   },
   {
     "id": 551,
@@ -1515,7 +1515,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "65 AttackCompletion of   Beneath Cursed Sands",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 559,
@@ -1526,7 +1526,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Light source, partial completion of   Contact! or   Beneath Cursed Sands",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.2"
   },
   {
     "id": 536,
@@ -1537,7 +1537,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "35 Fishing",
-    "comp_pct": "<0.1"
+    "comp_pct": "6.3"
   },
   {
     "id": 583,
@@ -1548,7 +1548,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Completion of   Sleeping Giants, 300 Foundry Reputation",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.2"
   },
   {
     "id": 620,
@@ -1570,7 +1570,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "35 Fishing,  50 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.8"
   },
   {
     "id": 629,
@@ -1581,7 +1581,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Completion of   Sleeping Giants",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 630,
@@ -1592,7 +1592,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Completion of   Sleeping Giants",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.9"
   },
   {
     "id": 631,
@@ -1625,7 +1625,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "36 Herblore",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.6"
   },
   {
     "id": 645,
@@ -1647,7 +1647,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "45 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "28"
   },
   {
     "id": 653,
@@ -1658,7 +1658,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "35 Fishing",
-    "comp_pct": "<0.1"
+    "comp_pct": "8.2"
   },
   {
     "id": 656,
@@ -1669,7 +1669,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Zamorak or Saradomin god equipment",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.2"
   },
   {
     "id": 669,
@@ -1680,7 +1680,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "45 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "16"
   },
   {
     "id": 670,
@@ -1691,7 +1691,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "25 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "19.4"
   },
   {
     "id": 672,
@@ -1702,7 +1702,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "53 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "20.9"
   },
   {
     "id": 676,
@@ -1713,7 +1713,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Completion of   Spirits of the Elid",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.4"
   },
   {
     "id": 681,
@@ -1724,7 +1724,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "51 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "39.2"
   },
   {
     "id": 682,
@@ -1735,7 +1735,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "61 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "26.1"
   },
   {
     "id": 683,
@@ -1746,7 +1746,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "71 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "13.1"
   },
   {
     "id": 712,
@@ -1757,7 +1757,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "25 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 714,
@@ -1768,7 +1768,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "30.2"
   },
   {
     "id": 715,
@@ -1779,7 +1779,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "9.3"
   },
   {
     "id": 882,
@@ -1790,7 +1790,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "82 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "34.3"
   },
   {
     "id": 884,
@@ -1823,7 +1823,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "62 Agility,  55 Crafting,  55 FiremakingCompletion of   Contact!",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.1"
   },
   {
     "id": 912,
@@ -1845,7 +1845,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "Completion of   Beneath Cursed Sands",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 905,
@@ -1922,7 +1922,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "35 Fishing",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 1027,
@@ -1933,7 +1933,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.6"
   },
   {
     "id": 1028,
@@ -1966,7 +1966,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "60 Attack",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 1062,
@@ -2021,7 +2021,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "Completion of   Sleeping Giants",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 1113,
@@ -2032,7 +2032,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "Completion of   Sleeping Giants",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 1114,
@@ -2076,7 +2076,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "35 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "6"
   },
   {
     "id": 1121,
@@ -2120,7 +2120,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "35 Fishing",
-    "comp_pct": "<0.1"
+    "comp_pct": "20.9"
   },
   {
     "id": 1142,
@@ -2131,7 +2131,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "65 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "11.2"
   },
   {
     "id": 1144,
@@ -2142,7 +2142,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "65 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.1"
   },
   {
     "id": 1156,
@@ -2153,7 +2153,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "81 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.8"
   },
   {
     "id": 1157,
@@ -2164,7 +2164,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "91 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.6"
   },
   {
     "id": 1158,
@@ -2197,7 +2197,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "45 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 1343,
@@ -2208,7 +2208,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "94 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "35.4"
   },
   {
     "id": 1359,
@@ -2241,7 +2241,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "96 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.7"
   },
   {
     "id": 1390,
@@ -2274,7 +2274,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "60 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 1477,
@@ -2296,7 +2296,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "60 MagicPizzazz points:\n500 telekinetic\n550 alchemist\n6,000 enchantment\n500 graveyard",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.7"
   },
   {
     "id": 1454,
@@ -2307,7 +2307,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "60 MagicPizzazz points (from scratch):\n480 telekinetic\n530 alchemist\n4,800 enchantment\n480 graveyard",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.2"
   },
   {
     "id": 1457,
@@ -2329,7 +2329,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "50 Magic,  25 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "8.6"
   },
   {
     "id": 1498,
@@ -2417,7 +2417,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "65 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 1575,
@@ -2428,7 +2428,7 @@
     "tier_order": 4,
     "points": 400,
     "requirements": "50 Magic,  25 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.1"
   },
   {
     "id": 1580,
@@ -2472,7 +2472,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "11 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "61.5"
   },
   {
     "id": 120,
@@ -2483,7 +2483,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "30.8"
   },
   {
     "id": 124,
@@ -2494,7 +2494,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "54 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "61.5"
   },
   {
     "id": 137,
@@ -2505,7 +2505,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "40 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "57.7"
   },
   {
     "id": 144,
@@ -2516,7 +2516,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "25 Slayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "73.1"
   },
   {
     "id": 150,
@@ -2527,7 +2527,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "30 Slayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "46.2"
   },
   {
     "id": 151,
@@ -2538,7 +2538,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "80.8"
   },
   {
     "id": 152,
@@ -2549,7 +2549,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "69.2"
   },
   {
     "id": 157,
@@ -2560,7 +2560,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "73.1"
   },
   {
     "id": 161,
@@ -2571,7 +2571,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "Completion of the   Easy Fremennik Diary",
-    "comp_pct": "<0.1"
+    "comp_pct": "19.2"
   },
   {
     "id": 182,
@@ -2582,7 +2582,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "65.4"
   },
   {
     "id": 192,
@@ -2593,7 +2593,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "53.8"
   },
   {
     "id": 202,
@@ -2604,7 +2604,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "73.1"
   },
   {
     "id": 203,
@@ -2615,7 +2615,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "57.7"
   },
   {
     "id": 204,
@@ -2626,7 +2626,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "73.1"
   },
   {
     "id": 462,
@@ -2637,7 +2637,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "51",
-    "comp_pct": "<0.1"
+    "comp_pct": "38.5"
   },
   {
     "id": 464,
@@ -2648,7 +2648,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "35 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "53.8"
   },
   {
     "id": 480,
@@ -2659,7 +2659,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Agility,  40 SlayerCompletion of   Throne of Miscellania",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.8"
   },
   {
     "id": 499,
@@ -2670,7 +2670,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "See   Fremennik Diary#Easy",
-    "comp_pct": "<0.1"
+    "comp_pct": "23.1"
   },
   {
     "id": 509,
@@ -2703,7 +2703,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.7"
   },
   {
     "id": 519,
@@ -2714,7 +2714,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Runecraft",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.8"
   },
   {
     "id": 532,
@@ -2725,7 +2725,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "23.1"
   },
   {
     "id": 543,
@@ -2736,7 +2736,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "47",
-    "comp_pct": "<0.1"
+    "comp_pct": "23.1"
   },
   {
     "id": 544,
@@ -2747,7 +2747,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "42.3"
   },
   {
     "id": 549,
@@ -2758,7 +2758,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "52 Slayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "15.4"
   },
   {
     "id": 554,
@@ -2769,7 +2769,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "70 Slayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.8"
   },
   {
     "id": 563,
@@ -2780,7 +2780,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "50"
   },
   {
     "id": 566,
@@ -2791,7 +2791,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "46.2"
   },
   {
     "id": 567,
@@ -2802,7 +2802,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "55 Slayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.7"
   },
   {
     "id": 570,
@@ -2813,7 +2813,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.8"
   },
   {
     "id": 597,
@@ -2824,7 +2824,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "34.6"
   },
   {
     "id": 615,
@@ -2835,7 +2835,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "46 Crafting,  20 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "42.3"
   },
   {
     "id": 602,
@@ -2857,7 +2857,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "55 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "30.8"
   },
   {
     "id": 624,
@@ -2868,7 +2868,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "50"
   },
   {
     "id": 642,
@@ -2879,7 +2879,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "42.3"
   },
   {
     "id": 665,
@@ -2890,7 +2890,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.8"
   },
   {
     "id": 695,
@@ -2901,7 +2901,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "5",
-    "comp_pct": "<0.1"
+    "comp_pct": "38.5"
   },
   {
     "id": 696,
@@ -2912,7 +2912,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "15 Started   Cold War",
-    "comp_pct": "<0.1"
+    "comp_pct": "53.8"
   },
   {
     "id": 697,
@@ -2923,7 +2923,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "42",
-    "comp_pct": "<0.1"
+    "comp_pct": "61.5"
   },
   {
     "id": 699,
@@ -2934,7 +2934,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "49",
-    "comp_pct": "<0.1"
+    "comp_pct": "34.6"
   },
   {
     "id": 716,
@@ -2945,7 +2945,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 Smithing",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.7"
   },
   {
     "id": 718,
@@ -2956,7 +2956,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "72 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.8"
   },
   {
     "id": 722,
@@ -2978,7 +2978,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "70 Smithing",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.7"
   },
   {
     "id": 876,
@@ -2989,7 +2989,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "50 Smithing",
-    "comp_pct": "<0.1"
+    "comp_pct": "15.4"
   },
   {
     "id": 881,
@@ -3000,7 +3000,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "83 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.7"
   },
   {
     "id": 883,
@@ -3011,7 +3011,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "69 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "15.4"
   },
   {
     "id": 885,
@@ -3044,7 +3044,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "80",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.8"
   },
   {
     "id": 914,
@@ -3066,7 +3066,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "80 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.8"
   },
   {
     "id": 936,
@@ -3077,7 +3077,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "87 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.7"
   },
   {
     "id": 1002,
@@ -3110,7 +3110,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "19.2"
   },
   {
     "id": 958,
@@ -3176,7 +3176,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.7"
   },
   {
     "id": 973,
@@ -3209,7 +3209,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.8"
   },
   {
     "id": 990,
@@ -3440,7 +3440,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "55 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "30.8"
   },
   {
     "id": 1171,
@@ -3737,7 +3737,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "94.1"
+    "comp_pct": "96.3"
   },
   {
     "id": 1,
@@ -3748,7 +3748,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "95.8"
+    "comp_pct": "96.9"
   },
   {
     "id": 2,
@@ -3759,7 +3759,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "96.5"
+    "comp_pct": "97.2"
   },
   {
     "id": 3,
@@ -3770,7 +3770,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "80.5"
+    "comp_pct": "88.1"
   },
   {
     "id": 4,
@@ -3781,7 +3781,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "67.3"
+    "comp_pct": "79.1"
   },
   {
     "id": 5,
@@ -3792,7 +3792,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "71.1"
+    "comp_pct": "83.4"
   },
   {
     "id": 6,
@@ -3803,7 +3803,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "80.4"
+    "comp_pct": "89.1"
   },
   {
     "id": 7,
@@ -3814,7 +3814,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "15 Firemaking",
-    "comp_pct": "40.5"
+    "comp_pct": "71.7"
   },
   {
     "id": 8,
@@ -3825,7 +3825,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "49.1"
+    "comp_pct": "76.4"
   },
   {
     "id": 9,
@@ -3836,7 +3836,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "82.1"
+    "comp_pct": "90.3"
   },
   {
     "id": 10,
@@ -3847,7 +3847,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "17 Hunter",
-    "comp_pct": "5.5"
+    "comp_pct": "25.4"
   },
   {
     "id": 11,
@@ -3858,7 +3858,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "10 Fishing",
-    "comp_pct": "17.3"
+    "comp_pct": "47.1"
   },
   {
     "id": 12,
@@ -3869,7 +3869,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "48.2"
+    "comp_pct": "76"
   },
   {
     "id": 13,
@@ -3880,7 +3880,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "15 Fishing",
-    "comp_pct": "38.8"
+    "comp_pct": "71.7"
   },
   {
     "id": 14,
@@ -3891,7 +3891,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "Any axe",
-    "comp_pct": "89.3"
+    "comp_pct": "93.8"
   },
   {
     "id": 15,
@@ -3902,7 +3902,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "6 Woodcutting",
-    "comp_pct": "39.7"
+    "comp_pct": "63.1"
   },
   {
     "id": 16,
@@ -3913,7 +3913,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "11 Herblore",
-    "comp_pct": "1.2"
+    "comp_pct": "12.5"
   },
   {
     "id": 17,
@@ -3924,7 +3924,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "0.9"
+    "comp_pct": "8.6"
   },
   {
     "id": 18,
@@ -3935,7 +3935,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "3.8"
+    "comp_pct": "23"
   },
   {
     "id": 19,
@@ -3946,7 +3946,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "98"
+    "comp_pct": "98.8"
   },
   {
     "id": 20,
@@ -3957,7 +3957,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "40.5"
+    "comp_pct": "70.8"
   },
   {
     "id": 21,
@@ -3968,7 +3968,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "47.2"
+    "comp_pct": "60.7"
   },
   {
     "id": 22,
@@ -3979,7 +3979,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "18 Crafting",
-    "comp_pct": "17"
+    "comp_pct": "34.5"
   },
   {
     "id": 23,
@@ -3990,7 +3990,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "5 Herblore",
-    "comp_pct": "0.1"
+    "comp_pct": "2.9"
   },
   {
     "id": 24,
@@ -4001,7 +4001,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "34 Crafting",
-    "comp_pct": "47.4"
+    "comp_pct": "66"
   },
   {
     "id": 25,
@@ -4012,7 +4012,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "63.3"
+    "comp_pct": "77.4"
   },
   {
     "id": 26,
@@ -4023,7 +4023,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "24"
+    "comp_pct": "50"
   },
   {
     "id": 27,
@@ -4034,7 +4034,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "9.8"
+    "comp_pct": "48.8"
   },
   {
     "id": 28,
@@ -4045,7 +4045,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "59.1"
+    "comp_pct": "72.2"
   },
   {
     "id": 29,
@@ -4056,7 +4056,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "10.5"
+    "comp_pct": "43.8"
   },
   {
     "id": 30,
@@ -4067,7 +4067,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "9 Magic",
-    "comp_pct": "11.6"
+    "comp_pct": "41.7"
   },
   {
     "id": 31,
@@ -4078,7 +4078,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "1.9"
+    "comp_pct": "11"
   },
   {
     "id": 32,
@@ -4089,7 +4089,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "25.4"
+    "comp_pct": "49.6"
   },
   {
     "id": 33,
@@ -4100,7 +4100,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "51.9"
+    "comp_pct": "67.9"
   },
   {
     "id": 34,
@@ -4111,7 +4111,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "67.6"
+    "comp_pct": "78.9"
   },
   {
     "id": 35,
@@ -4122,7 +4122,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "1,000",
-    "comp_pct": "7.5"
+    "comp_pct": "37.5"
   },
   {
     "id": 36,
@@ -4133,7 +4133,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "5 Defence",
-    "comp_pct": "15.5"
+    "comp_pct": "48.9"
   },
   {
     "id": 37,
@@ -4144,7 +4144,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "36.3"
+    "comp_pct": "62.6"
   },
   {
     "id": 38,
@@ -4155,7 +4155,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "17.6"
+    "comp_pct": "49.6"
   },
   {
     "id": 39,
@@ -4166,7 +4166,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "65.5"
+    "comp_pct": "76.9"
   },
   {
     "id": 41,
@@ -4177,7 +4177,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "20 Fletching 15 Woodcutting if chopping own log",
-    "comp_pct": "16.2"
+    "comp_pct": "44.6"
   },
   {
     "id": 40,
@@ -4188,7 +4188,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "65.8"
+    "comp_pct": "81.9"
   },
   {
     "id": 42,
@@ -4199,7 +4199,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "14.8"
+    "comp_pct": "47.7"
   },
   {
     "id": 43,
@@ -4210,7 +4210,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "50.5"
+    "comp_pct": "65.3"
   },
   {
     "id": 44,
@@ -4221,7 +4221,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "0.4"
+    "comp_pct": "9.6"
   },
   {
     "id": 45,
@@ -4232,7 +4232,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "32"
+    "comp_pct": "61.6"
   },
   {
     "id": 46,
@@ -4243,7 +4243,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "24.9"
+    "comp_pct": "59.5"
   },
   {
     "id": 47,
@@ -4254,7 +4254,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "6 Mining",
-    "comp_pct": "11.3"
+    "comp_pct": "48.1"
   },
   {
     "id": 48,
@@ -4265,7 +4265,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "33.5"
+    "comp_pct": "68"
   },
   {
     "id": 49,
@@ -4276,7 +4276,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "16 Fishing",
-    "comp_pct": "37.5"
+    "comp_pct": "58.3"
   },
   {
     "id": 50,
@@ -4287,7 +4287,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "97.2"
+    "comp_pct": "99.1"
   },
   {
     "id": 51,
@@ -4298,7 +4298,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.3"
   },
   {
     "id": 52,
@@ -4309,7 +4309,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "44.3"
+    "comp_pct": "67.8"
   },
   {
     "id": 53,
@@ -4320,7 +4320,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "65.3"
+    "comp_pct": "75.8"
   },
   {
     "id": 54,
@@ -4331,7 +4331,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "90.7"
+    "comp_pct": "94.1"
   },
   {
     "id": 55,
@@ -4342,7 +4342,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "Seed dibber",
-    "comp_pct": "4.3"
+    "comp_pct": "31.6"
   },
   {
     "id": 56,
@@ -4353,7 +4353,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "Items requested by the farmer to protect the crop",
-    "comp_pct": "2.8"
+    "comp_pct": "26"
   },
   {
     "id": 57,
@@ -4364,7 +4364,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "1,000",
-    "comp_pct": "31.2"
+    "comp_pct": "51.9"
   },
   {
     "id": 58,
@@ -4375,7 +4375,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "63"
+    "comp_pct": "73.2"
   },
   {
     "id": 59,
@@ -4386,7 +4386,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "14.2"
+    "comp_pct": "60.3"
   },
   {
     "id": 60,
@@ -4397,7 +4397,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "38.9"
+    "comp_pct": "56.7"
   },
   {
     "id": 61,
@@ -4408,7 +4408,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "19.9"
+    "comp_pct": "48"
   },
   {
     "id": 62,
@@ -4419,7 +4419,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "26"
+    "comp_pct": "56.3"
   },
   {
     "id": 63,
@@ -4430,7 +4430,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "15 Smithing",
-    "comp_pct": "4.3"
+    "comp_pct": "34.6"
   },
   {
     "id": 64,
@@ -4441,7 +4441,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "19 Hunter",
-    "comp_pct": "8.8"
+    "comp_pct": "32.1"
   },
   {
     "id": 65,
@@ -4452,7 +4452,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "18.5"
+    "comp_pct": "44.6"
   },
   {
     "id": 66,
@@ -4463,7 +4463,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "24.6"
+    "comp_pct": "49.6"
   },
   {
     "id": 67,
@@ -4474,7 +4474,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "35.9"
+    "comp_pct": "59.3"
   },
   {
     "id": 68,
@@ -4485,7 +4485,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "5 Thieving",
-    "comp_pct": "77.5"
+    "comp_pct": "83.5"
   },
   {
     "id": 69,
@@ -4496,7 +4496,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "16 CraftingChisel",
-    "comp_pct": "0.3"
+    "comp_pct": "10.3"
   },
   {
     "id": 70,
@@ -4507,7 +4507,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "60.7"
+    "comp_pct": "72.3"
   },
   {
     "id": 71,
@@ -4518,7 +4518,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "Logs and 100",
-    "comp_pct": "39.4"
+    "comp_pct": "59.1"
   },
   {
     "id": 72,
@@ -4529,7 +4529,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "78.1"
+    "comp_pct": "84.2"
   },
   {
     "id": 213,
@@ -4540,7 +4540,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.8"
+    "comp_pct": "11.8"
   },
   {
     "id": 214,
@@ -4551,7 +4551,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 215,
@@ -4562,7 +4562,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.8"
   },
   {
     "id": 216,
@@ -4573,7 +4573,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.2"
+    "comp_pct": "5.7"
   },
   {
     "id": 217,
@@ -4584,7 +4584,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.1"
   },
   {
     "id": 218,
@@ -4595,7 +4595,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 219,
@@ -4639,7 +4639,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.4"
   },
   {
     "id": 223,
@@ -4650,7 +4650,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.1"
+    "comp_pct": "21.8"
   },
   {
     "id": 224,
@@ -4661,7 +4661,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.5"
   },
   {
     "id": 225,
@@ -4694,7 +4694,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "88.1"
+    "comp_pct": "94.2"
   },
   {
     "id": 228,
@@ -4705,7 +4705,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "78.5"
+    "comp_pct": "90.7"
   },
   {
     "id": 229,
@@ -4716,7 +4716,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "68.2"
+    "comp_pct": "87.6"
   },
   {
     "id": 230,
@@ -4727,7 +4727,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "52.4"
+    "comp_pct": "82.6"
   },
   {
     "id": 231,
@@ -4738,7 +4738,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "24.9"
+    "comp_pct": "72.7"
   },
   {
     "id": 232,
@@ -4749,7 +4749,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "52 Prayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "9.6"
   },
   {
     "id": 233,
@@ -4760,7 +4760,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "65 Construction",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 234,
@@ -4771,7 +4771,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "1,000",
-    "comp_pct": "5.8"
+    "comp_pct": "31.6"
   },
   {
     "id": 235,
@@ -4782,7 +4782,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "33 Construction",
-    "comp_pct": "0.1"
+    "comp_pct": "4.3"
   },
   {
     "id": 236,
@@ -4793,7 +4793,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Firemaking",
-    "comp_pct": "16.8"
+    "comp_pct": "43.6"
   },
   {
     "id": 237,
@@ -4804,7 +4804,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "45 Firemaking",
-    "comp_pct": "12.5"
+    "comp_pct": "43.2"
   },
   {
     "id": 238,
@@ -4815,7 +4815,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.2"
   },
   {
     "id": 239,
@@ -4826,7 +4826,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.4"
+    "comp_pct": "15.7"
   },
   {
     "id": 240,
@@ -4837,7 +4837,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "39 Cooking",
-    "comp_pct": "0.5"
+    "comp_pct": "20.9"
   },
   {
     "id": 242,
@@ -4848,7 +4848,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "53 Magic",
-    "comp_pct": "0.5"
+    "comp_pct": "20.8"
   },
   {
     "id": 241,
@@ -4859,7 +4859,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "21 Magic",
-    "comp_pct": "7.8"
+    "comp_pct": "36.5"
   },
   {
     "id": 243,
@@ -4870,7 +4870,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "23 Fishing",
-    "comp_pct": "2.7"
+    "comp_pct": "32.2"
   },
   {
     "id": 244,
@@ -4881,7 +4881,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Fishing",
-    "comp_pct": "0.3"
+    "comp_pct": "13"
   },
   {
     "id": 245,
@@ -4892,7 +4892,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "35 Fishing",
-    "comp_pct": "0.5"
+    "comp_pct": "14.4"
   },
   {
     "id": 246,
@@ -4903,7 +4903,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "16 Fishing",
-    "comp_pct": "3"
+    "comp_pct": "32.7"
   },
   {
     "id": 247,
@@ -4914,7 +4914,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "17 Hunter",
-    "comp_pct": "0.4"
+    "comp_pct": "14.6"
   },
   {
     "id": 248,
@@ -4925,7 +4925,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "35 Fishing",
-    "comp_pct": "0.9"
+    "comp_pct": "17.3"
   },
   {
     "id": 249,
@@ -4936,7 +4936,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Fishing",
-    "comp_pct": "1.2"
+    "comp_pct": "19.4"
   },
   {
     "id": 250,
@@ -4947,7 +4947,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "20 Fishing",
-    "comp_pct": "1.7"
+    "comp_pct": "25.5"
   },
   {
     "id": 251,
@@ -4958,7 +4958,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "15 Hunter",
-    "comp_pct": "7"
+    "comp_pct": "30.2"
   },
   {
     "id": 252,
@@ -4969,7 +4969,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Either  29 Hunter ( Morytania\u2713),  47 Hunter ( Desert\u2713),  59 Hunter ( Kandarin\u2713,  67 Hunter ( Wilderness\u2713),  79 Hunter ( Varlamore\u2713)",
-    "comp_pct": "0.1"
+    "comp_pct": "5"
   },
   {
     "id": 253,
@@ -4980,7 +4980,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "27 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.6"
   },
   {
     "id": 254,
@@ -4991,7 +4991,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "15 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.4"
   },
   {
     "id": 255,
@@ -5002,7 +5002,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Woodcutting",
-    "comp_pct": "23.4"
+    "comp_pct": "55.9"
   },
   {
     "id": 256,
@@ -5013,7 +5013,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "45 Woodcutting",
-    "comp_pct": "14.3"
+    "comp_pct": "53.6"
   },
   {
     "id": 257,
@@ -5024,7 +5024,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "41 Woodcutting",
-    "comp_pct": "0.9"
+    "comp_pct": "9.9"
   },
   {
     "id": 258,
@@ -5035,7 +5035,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "3.2"
+    "comp_pct": "11.4"
   },
   {
     "id": 259,
@@ -5046,7 +5046,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "38 Cooking",
-    "comp_pct": "0.5"
+    "comp_pct": "21.4"
   },
   {
     "id": 260,
@@ -5057,7 +5057,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "65 Herblore",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 261,
@@ -5068,7 +5068,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "25 Herblore",
-    "comp_pct": "0.1"
+    "comp_pct": "7.3"
   },
   {
     "id": 262,
@@ -5079,7 +5079,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "48 Herblore",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.5"
   },
   {
     "id": 263,
@@ -5090,7 +5090,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "1.9"
+    "comp_pct": "18.3"
   },
   {
     "id": 264,
@@ -5101,7 +5101,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "1.8"
+    "comp_pct": "7"
   },
   {
     "id": 265,
@@ -5112,7 +5112,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "4.3"
+    "comp_pct": "9.9"
   },
   {
     "id": 266,
@@ -5123,7 +5123,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "2.3"
+    "comp_pct": "8.7"
   },
   {
     "id": 267,
@@ -5134,7 +5134,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "6"
+    "comp_pct": "19.5"
   },
   {
     "id": 268,
@@ -5145,7 +5145,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "2.2"
+    "comp_pct": "8.2"
   },
   {
     "id": 269,
@@ -5156,7 +5156,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "2.3"
+    "comp_pct": "8.7"
   },
   {
     "id": 270,
@@ -5167,7 +5167,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "2.1"
+    "comp_pct": "8"
   },
   {
     "id": 271,
@@ -5178,7 +5178,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "2"
+    "comp_pct": "7"
   },
   {
     "id": 272,
@@ -5189,7 +5189,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "5.2"
+    "comp_pct": "18.4"
   },
   {
     "id": 273,
@@ -5200,7 +5200,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "7.6"
+    "comp_pct": "14.1"
   },
   {
     "id": 274,
@@ -5211,7 +5211,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "2.9"
+    "comp_pct": "10.9"
   },
   {
     "id": 275,
@@ -5222,7 +5222,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "55 Magic",
-    "comp_pct": "1.6"
+    "comp_pct": "28.5"
   },
   {
     "id": 276,
@@ -5233,18 +5233,18 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "45 Cooking",
-    "comp_pct": "1.1"
+    "comp_pct": "25.5"
   },
   {
     "id": 277,
     "name": "Cook 50 Tuna",
-    "description": "Cook 50 Raw Tuna.",
+    "description": "Cook 50 Tuna.",
     "region": "general",
     "tier": "medium",
     "tier_order": 1,
     "points": 30,
-    "requirements": "35 Cooking",
-    "comp_pct": "1.7"
+    "requirements": "30 Cooking",
+    "comp_pct": "29.5"
   },
   {
     "id": 278,
@@ -5255,7 +5255,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.2"
+    "comp_pct": "16.5"
   },
   {
     "id": 279,
@@ -5266,7 +5266,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 281,
@@ -5277,7 +5277,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "24 Crafting",
-    "comp_pct": "0.1"
+    "comp_pct": "15.5"
   },
   {
     "id": 282,
@@ -5288,7 +5288,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "27 Crafting",
-    "comp_pct": "0.2"
+    "comp_pct": "16.5"
   },
   {
     "id": 280,
@@ -5321,7 +5321,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "4.7"
+    "comp_pct": "24.4"
   },
   {
     "id": 285,
@@ -5332,7 +5332,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "13.3"
+    "comp_pct": "42.7"
   },
   {
     "id": 286,
@@ -5343,7 +5343,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "11.3"
+    "comp_pct": "38.2"
   },
   {
     "id": 287,
@@ -5365,7 +5365,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "20 Attack",
-    "comp_pct": "0.8"
+    "comp_pct": "24.4"
   },
   {
     "id": 289,
@@ -5376,7 +5376,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "5 SlayerUnlocked Bigger and Badder for 150 Slayer reward points or at least Tier 3 Relic unlocked",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 290,
@@ -5387,7 +5387,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "17.9"
+    "comp_pct": "55.2"
   },
   {
     "id": 291,
@@ -5398,7 +5398,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.8"
   },
   {
     "id": 292,
@@ -5409,7 +5409,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Defence",
-    "comp_pct": "0.4"
+    "comp_pct": "19.6"
   },
   {
     "id": 293,
@@ -5420,7 +5420,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Ranged,  40 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.6"
   },
   {
     "id": 294,
@@ -5431,7 +5431,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "5.6"
+    "comp_pct": "38.1"
   },
   {
     "id": 295,
@@ -5442,7 +5442,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 Ranged,  40 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 296,
@@ -5453,7 +5453,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "20 Attack",
-    "comp_pct": "4.1"
+    "comp_pct": "41.2"
   },
   {
     "id": 297,
@@ -5464,7 +5464,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Magic,  20 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.6"
   },
   {
     "id": 302,
@@ -5475,7 +5475,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "2"
+    "comp_pct": "7.9"
   },
   {
     "id": 303,
@@ -5486,7 +5486,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "2"
+    "comp_pct": "8.1"
   },
   {
     "id": 304,
@@ -5497,7 +5497,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.9"
+    "comp_pct": "3.5"
   },
   {
     "id": 305,
@@ -5508,7 +5508,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "1.2"
+    "comp_pct": "5.2"
   },
   {
     "id": 298,
@@ -5519,7 +5519,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Attack",
-    "comp_pct": "0.2"
+    "comp_pct": "15.9"
   },
   {
     "id": 299,
@@ -5530,7 +5530,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.8"
   },
   {
     "id": 300,
@@ -5541,7 +5541,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Defence,  42 Fletching2 Willow logs ( 30  if chopping yourself)",
-    "comp_pct": "<0.1"
+    "comp_pct": "10"
   },
   {
     "id": 301,
@@ -5552,7 +5552,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.4"
   },
   {
     "id": 306,
@@ -5563,7 +5563,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Attack",
-    "comp_pct": "1.7"
+    "comp_pct": "26.9"
   },
   {
     "id": 307,
@@ -5574,7 +5574,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Magic,  30 Attack",
-    "comp_pct": "<0.1"
+    "comp_pct": "1"
   },
   {
     "id": 308,
@@ -5585,7 +5585,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "10 Defence",
-    "comp_pct": "0.1"
+    "comp_pct": "3.5"
   },
   {
     "id": 309,
@@ -5596,7 +5596,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "5 Defence",
-    "comp_pct": "6.2"
+    "comp_pct": "38.3"
   },
   {
     "id": 310,
@@ -5618,7 +5618,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 312,
@@ -5629,7 +5629,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 313,
@@ -5640,7 +5640,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 314,
@@ -5662,7 +5662,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.1"
   },
   {
     "id": 316,
@@ -5673,7 +5673,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "3"
   },
   {
     "id": 317,
@@ -5684,7 +5684,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.6"
   },
   {
     "id": 318,
@@ -5695,7 +5695,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.3"
+    "comp_pct": "11.8"
   },
   {
     "id": 319,
@@ -5717,7 +5717,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "42 Construction",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.6"
   },
   {
     "id": 321,
@@ -5728,7 +5728,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "27.4"
+    "comp_pct": "58.7"
   },
   {
     "id": 322,
@@ -5739,7 +5739,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "15 Fletching",
-    "comp_pct": "0.9"
+    "comp_pct": "25.6"
   },
   {
     "id": 323,
@@ -5750,7 +5750,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "55 Fletching",
-    "comp_pct": "4.1"
+    "comp_pct": "30.7"
   },
   {
     "id": 324,
@@ -5761,7 +5761,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "24 Fletching",
-    "comp_pct": "21.2"
+    "comp_pct": "50.7"
   },
   {
     "id": 325,
@@ -5772,7 +5772,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Fletching",
-    "comp_pct": "11.3"
+    "comp_pct": "41.4"
   },
   {
     "id": 326,
@@ -5783,7 +5783,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "35 Fletching",
-    "comp_pct": "16.1"
+    "comp_pct": "46.6"
   },
   {
     "id": 327,
@@ -5794,7 +5794,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "52 FletchingUnlocked Broader Fletching using 300 Slayer reward points",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 328,
@@ -5805,7 +5805,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.9"
   },
   {
     "id": 329,
@@ -5816,7 +5816,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1"
   },
   {
     "id": 330,
@@ -5827,7 +5827,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 331,
@@ -5838,7 +5838,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 332,
@@ -5849,7 +5849,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 333,
@@ -5860,7 +5860,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.7"
   },
   {
     "id": 334,
@@ -5871,7 +5871,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 335,
@@ -5882,7 +5882,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.2"
+    "comp_pct": "5.3"
   },
   {
     "id": 336,
@@ -5893,7 +5893,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.6"
+    "comp_pct": "10.3"
   },
   {
     "id": 337,
@@ -5904,7 +5904,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.9"
   },
   {
     "id": 338,
@@ -5915,7 +5915,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "6.4"
+    "comp_pct": "20.5"
   },
   {
     "id": 339,
@@ -5926,7 +5926,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "32 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.6"
   },
   {
     "id": 340,
@@ -5937,7 +5937,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.9"
+    "comp_pct": "3.7"
   },
   {
     "id": 341,
@@ -5948,7 +5948,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Construction",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.3"
   },
   {
     "id": 342,
@@ -5970,7 +5970,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "38 Herblore",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.6"
   },
   {
     "id": 344,
@@ -5981,7 +5981,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "27 Magic,  34 Crafting",
-    "comp_pct": "0.3"
+    "comp_pct": "3.6"
   },
   {
     "id": 345,
@@ -5992,7 +5992,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "45 Cooking",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.8"
   },
   {
     "id": 346,
@@ -6003,7 +6003,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "53.2"
+    "comp_pct": "68.9"
   },
   {
     "id": 347,
@@ -6014,7 +6014,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "20 Mining",
-    "comp_pct": "5.2"
+    "comp_pct": "41.3"
   },
   {
     "id": 348,
@@ -6025,7 +6025,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "15 Mining",
-    "comp_pct": "13.9"
+    "comp_pct": "56.7"
   },
   {
     "id": 349,
@@ -6036,7 +6036,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "55 Mining",
-    "comp_pct": "0.7"
+    "comp_pct": "27.6"
   },
   {
     "id": 350,
@@ -6047,7 +6047,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "41 Mining",
-    "comp_pct": "2.2"
+    "comp_pct": "35.6"
   },
   {
     "id": 351,
@@ -6058,7 +6058,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Thieving (can be completed at lower levels depending on luck when pickpocketing NPCs with variable coin amounts)",
-    "comp_pct": "2.8"
+    "comp_pct": "25.4"
   },
   {
     "id": 352,
@@ -6069,7 +6069,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "5.4"
+    "comp_pct": "38"
   },
   {
     "id": 353,
@@ -6080,7 +6080,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "8.1"
+    "comp_pct": "44.8"
   },
   {
     "id": 354,
@@ -6091,7 +6091,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "5.7"
+    "comp_pct": "18.9"
   },
   {
     "id": 355,
@@ -6102,7 +6102,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "33.4"
+    "comp_pct": "54.7"
   },
   {
     "id": 356,
@@ -6113,7 +6113,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "37"
+    "comp_pct": "59.4"
   },
   {
     "id": 357,
@@ -6124,7 +6124,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "2.4"
+    "comp_pct": "9.1"
   },
   {
     "id": 358,
@@ -6135,7 +6135,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "38 Thieving",
-    "comp_pct": "3.7"
+    "comp_pct": "27.6"
   },
   {
     "id": 369,
@@ -6146,7 +6146,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 359,
@@ -6201,7 +6201,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.3"
+    "comp_pct": "34.3"
   },
   {
     "id": 364,
@@ -6212,7 +6212,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "9.4"
   },
   {
     "id": 365,
@@ -6223,7 +6223,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "79.8"
+    "comp_pct": "92"
   },
   {
     "id": 366,
@@ -6234,7 +6234,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "40.4"
+    "comp_pct": "79.2"
   },
   {
     "id": 367,
@@ -6245,7 +6245,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "39.7"
   },
   {
     "id": 368,
@@ -6256,7 +6256,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "32.3"
   },
   {
     "id": 370,
@@ -6267,7 +6267,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "10 Construction",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.4"
   },
   {
     "id": 371,
@@ -6278,7 +6278,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.6"
+    "comp_pct": "12.5"
   },
   {
     "id": 372,
@@ -6289,7 +6289,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.5"
   },
   {
     "id": 373,
@@ -6300,18 +6300,18 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.5"
   },
   {
     "id": 374,
     "name": "Smelt a Steel Bar",
-    "description": "Use a Furnace to smelt a Steel Bar.",
+    "description": "Use a furnace to smelt a steel bar.",
     "region": "general",
     "tier": "medium",
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Smithing",
-    "comp_pct": "6.7"
+    "comp_pct": "32.3"
   },
   {
     "id": 375,
@@ -6322,7 +6322,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "33 Smithing",
-    "comp_pct": "1.2"
+    "comp_pct": "16.8"
   },
   {
     "id": 376,
@@ -6333,7 +6333,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "20 Smithing",
-    "comp_pct": "1.9"
+    "comp_pct": "28.4"
   },
   {
     "id": 377,
@@ -6344,7 +6344,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "53 Smithing",
-    "comp_pct": "0.1"
+    "comp_pct": "4"
   },
   {
     "id": 378,
@@ -6355,7 +6355,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "44 Smithing",
-    "comp_pct": "0.5"
+    "comp_pct": "10"
   },
   {
     "id": 379,
@@ -6366,7 +6366,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "9.1"
+    "comp_pct": "35.5"
   },
   {
     "id": 380,
@@ -6377,7 +6377,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "35.5"
+    "comp_pct": "71.5"
   },
   {
     "id": 381,
@@ -6388,7 +6388,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "44.3"
+    "comp_pct": "61.8"
   },
   {
     "id": 382,
@@ -6399,7 +6399,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Magic to cast Teleport to House with a player-owned house, or  6 Magic with  Kourend\u2713, or Grimoire",
-    "comp_pct": "0.5"
+    "comp_pct": "21.8"
   },
   {
     "id": 383,
@@ -6410,7 +6410,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.5"
   },
   {
     "id": 384,
@@ -6421,7 +6421,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.7"
+    "comp_pct": "4.2"
   },
   {
     "id": 385,
@@ -6432,7 +6432,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "43 Prayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "20.4"
   },
   {
     "id": 726,
@@ -6443,7 +6443,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 727,
@@ -6454,7 +6454,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 728,
@@ -6509,7 +6509,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "3"
+    "comp_pct": "52.3"
   },
   {
     "id": 733,
@@ -6520,7 +6520,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "0.2"
+    "comp_pct": "26.3"
   },
   {
     "id": 734,
@@ -6531,7 +6531,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "39 Construction",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.2"
   },
   {
     "id": 735,
@@ -6564,7 +6564,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "60 Firemaking",
-    "comp_pct": "0.6"
+    "comp_pct": "13.7"
   },
   {
     "id": 738,
@@ -6575,7 +6575,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "75 Firemaking",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.5"
   },
   {
     "id": 739,
@@ -6586,7 +6586,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "62 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "11.8"
   },
   {
     "id": 740,
@@ -6597,7 +6597,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "76 Fishing",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.5"
   },
   {
     "id": 741,
@@ -6608,7 +6608,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "17 Hunter",
-    "comp_pct": "0.1"
+    "comp_pct": "3.6"
   },
   {
     "id": 742,
@@ -6619,7 +6619,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "83 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.6"
   },
   {
     "id": 743,
@@ -6630,7 +6630,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "60 Woodcutting",
-    "comp_pct": "1.1"
+    "comp_pct": "22.1"
   },
   {
     "id": 744,
@@ -6641,7 +6641,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "75 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.7"
   },
   {
     "id": 745,
@@ -6652,7 +6652,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "48 Herblore",
-    "comp_pct": "<0.1"
+    "comp_pct": "2"
   },
   {
     "id": 746,
@@ -6663,7 +6663,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "67 Herblore",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 747,
@@ -6674,7 +6674,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "41 Combat Achievement points",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.7"
   },
   {
     "id": 748,
@@ -6685,7 +6685,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 749,
@@ -6707,7 +6707,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 751,
@@ -6729,7 +6729,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "10 Cooking",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.6"
   },
   {
     "id": 752,
@@ -6740,7 +6740,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "80 Cooking",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 754,
@@ -6751,7 +6751,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "20 Cooking",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.6"
   },
   {
     "id": 755,
@@ -6762,7 +6762,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "46 Crafting",
-    "comp_pct": "0.9"
+    "comp_pct": "4.6"
   },
   {
     "id": 756,
@@ -6784,7 +6784,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "71 Crafting",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 758,
@@ -6795,7 +6795,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "80 Crafting",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 759,
@@ -6806,7 +6806,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "59 Fletching,  59 Smithing",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.6"
   },
   {
     "id": 760,
@@ -6828,7 +6828,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 762,
@@ -6938,7 +6938,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "30 Magic,  30 Attack",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 772,
@@ -6949,7 +6949,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "60 Attack",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.1"
   },
   {
     "id": 773,
@@ -6960,7 +6960,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "70 Ranged,  40 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 774,
@@ -6993,7 +6993,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "40 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 777,
@@ -7015,7 +7015,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.6"
   },
   {
     "id": 779,
@@ -7026,7 +7026,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "50 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.5"
   },
   {
     "id": 780,
@@ -7048,7 +7048,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "61 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 782,
@@ -7081,7 +7081,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 785,
@@ -7092,7 +7092,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "40 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 786,
@@ -7103,7 +7103,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "35 Cooking",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.5"
   },
   {
     "id": 787,
@@ -7169,7 +7169,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 793,
@@ -7202,7 +7202,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "85 Fletching",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 796,
@@ -7213,7 +7213,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "70 Fletching",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.6"
   },
   {
     "id": 797,
@@ -7224,7 +7224,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "87 Fletching",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 798,
@@ -7235,7 +7235,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "69 Fletching",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 799,
@@ -7268,7 +7268,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 802,
@@ -7290,7 +7290,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 804,
@@ -7323,7 +7323,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "70 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.9"
   },
   {
     "id": 807,
@@ -7334,7 +7334,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "10 Mining",
-    "comp_pct": "0.5"
+    "comp_pct": "11.9"
   },
   {
     "id": 808,
@@ -7345,7 +7345,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "0.3"
+    "comp_pct": "2.2"
   },
   {
     "id": 809,
@@ -7422,7 +7422,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 815,
@@ -7444,7 +7444,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "12.7"
   },
   {
     "id": 817,
@@ -7455,7 +7455,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.1"
   },
   {
     "id": 818,
@@ -7488,18 +7488,18 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "75 Prayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.6"
   },
   {
     "id": 822,
     "name": "Smelt a Runite Bar",
-    "description": "Use a Furnace to smelt a Runite Bar.",
+    "description": "Use a furnace to smelt a runite bar.",
     "region": "general",
     "tier": "hard",
     "tier_order": 2,
     "points": 80,
     "requirements": "85 Smithing",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 823,
@@ -7521,7 +7521,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "75 Thieving",
-    "comp_pct": "0.1"
+    "comp_pct": "4.3"
   },
   {
     "id": 1175,
@@ -7631,7 +7631,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "11.7"
   },
   {
     "id": 1185,
@@ -7642,7 +7642,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "6"
   },
   {
     "id": 1186,
@@ -7675,7 +7675,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "53 Hunter",
-    "comp_pct": "0.1"
+    "comp_pct": "5.6"
   },
   {
     "id": 1189,
@@ -7774,7 +7774,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "90 Crafting",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1198,
@@ -8005,7 +8005,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "80 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1219,
@@ -8115,7 +8115,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "99 Fletching",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1229,
@@ -8203,7 +8203,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "99 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1237,
@@ -8324,7 +8324,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "99 Fletching",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1248,
@@ -8555,7 +8555,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "99 Fletching",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1269,
@@ -8720,7 +8720,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "",
-    "comp_pct": "0.1"
+    "comp_pct": "0.8"
   },
   {
     "id": 1284,
@@ -8841,7 +8841,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "99 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1295,
@@ -8874,7 +8874,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "99 Fletching",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 1298,
@@ -8907,7 +8907,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "99 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 1301,
@@ -8918,7 +8918,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "99 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.4"
   },
   {
     "id": 1302,
@@ -9006,7 +9006,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "99 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.9"
   },
   {
     "id": 1310,
@@ -9215,7 +9215,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "49.9"
   },
   {
     "id": 116,
@@ -9226,7 +9226,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "35.1"
   },
   {
     "id": 118,
@@ -9237,7 +9237,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "31.5"
   },
   {
     "id": 122,
@@ -9248,7 +9248,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "23 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "26.1"
   },
   {
     "id": 129,
@@ -9259,7 +9259,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "67"
   },
   {
     "id": 145,
@@ -9270,7 +9270,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "25.9"
   },
   {
     "id": 138,
@@ -9281,7 +9281,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "67 AgilityStrike spells, ring of recoil, or dynamite(p) to damage him",
-    "comp_pct": "<0.1"
+    "comp_pct": "8.4"
   },
   {
     "id": 163,
@@ -9292,7 +9292,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "44.2"
   },
   {
     "id": 173,
@@ -9303,7 +9303,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "59.1"
   },
   {
     "id": 179,
@@ -9314,7 +9314,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "57.8"
   },
   {
     "id": 184,
@@ -9325,7 +9325,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "29.4"
   },
   {
     "id": 211,
@@ -9336,7 +9336,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "75.8"
   },
   {
     "id": 212,
@@ -9347,7 +9347,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "67.5"
   },
   {
     "id": 460,
@@ -9358,7 +9358,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "62 Fishing",
-    "comp_pct": "<0.1"
+    "comp_pct": "17.8"
   },
   {
     "id": 461,
@@ -9369,7 +9369,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "59 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "20.7"
   },
   {
     "id": 489,
@@ -9380,7 +9380,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "15 Fishing",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.6"
   },
   {
     "id": 476,
@@ -9391,7 +9391,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "10 Fishing",
-    "comp_pct": "<0.1"
+    "comp_pct": "22.6"
   },
   {
     "id": 479,
@@ -9402,7 +9402,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "24.9"
   },
   {
     "id": 481,
@@ -9413,7 +9413,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Firemaking",
-    "comp_pct": "<0.1"
+    "comp_pct": "19.2"
   },
   {
     "id": 494,
@@ -9424,7 +9424,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "35 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "13.7"
   },
   {
     "id": 496,
@@ -9435,7 +9435,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "See   Ardougne Diary#Easy",
-    "comp_pct": "<0.1"
+    "comp_pct": "21.6"
   },
   {
     "id": 500,
@@ -9446,7 +9446,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "See   Kandarin Diary#Easy",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.5"
   },
   {
     "id": 506,
@@ -9457,7 +9457,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "See   Ardougne Diary#Medium",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 510,
@@ -9479,7 +9479,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.1"
   },
   {
     "id": 487,
@@ -9490,7 +9490,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "10 Construction",
-    "comp_pct": "<0.1"
+    "comp_pct": "6.1"
   },
   {
     "id": 540,
@@ -9501,7 +9501,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Slayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 547,
@@ -9523,7 +9523,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Completion of   Tower of Life",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.2"
   },
   {
     "id": 561,
@@ -9534,7 +9534,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "10 Construction  Tower of Life",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.8"
   },
   {
     "id": 564,
@@ -9545,7 +9545,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Completion of   Tower of Life",
-    "comp_pct": "<0.1"
+    "comp_pct": "5"
   },
   {
     "id": 565,
@@ -9556,7 +9556,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "48.7"
   },
   {
     "id": 588,
@@ -9567,7 +9567,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "68 Fishing",
-    "comp_pct": "<0.1"
+    "comp_pct": "6.8"
   },
   {
     "id": 589,
@@ -9578,7 +9578,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "60.7"
   },
   {
     "id": 590,
@@ -9589,7 +9589,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "31.4"
   },
   {
     "id": 592,
@@ -9600,7 +9600,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "66 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "68.6"
   },
   {
     "id": 596,
@@ -9611,7 +9611,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Fletching,  25 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 598,
@@ -9622,7 +9622,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 Attack",
-    "comp_pct": "<0.1"
+    "comp_pct": "15.5"
   },
   {
     "id": 604,
@@ -9644,7 +9644,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "36.9"
   },
   {
     "id": 609,
@@ -9655,7 +9655,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "69 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "6.2"
   },
   {
     "id": 618,
@@ -9677,7 +9677,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "11.2"
   },
   {
     "id": 640,
@@ -9688,7 +9688,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "11 Firemaking,  11 CraftingPartial completion of   Barbarian Training",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 650,
@@ -9699,7 +9699,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Construction",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.9"
   },
   {
     "id": 673,
@@ -9710,7 +9710,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "55 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "51"
   },
   {
     "id": 684,
@@ -9721,7 +9721,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "50"
   },
   {
     "id": 685,
@@ -9732,7 +9732,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "45 Smithing",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.7"
   },
   {
     "id": 700,
@@ -9743,7 +9743,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "35 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "65.3"
   },
   {
     "id": 701,
@@ -9754,7 +9754,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "58.8"
   },
   {
     "id": 702,
@@ -9765,7 +9765,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "65 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "51.4"
   },
   {
     "id": 710,
@@ -9776,7 +9776,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "31 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "20"
   },
   {
     "id": 719,
@@ -9787,7 +9787,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "34.9"
   },
   {
     "id": 724,
@@ -9809,7 +9809,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "Either partial completion of   Zogre Flesh Eaters, or  Morytania\u2713",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.6"
   },
   {
     "id": 886,
@@ -9820,7 +9820,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "85 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "28.4"
   },
   {
     "id": 892,
@@ -9831,7 +9831,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "57 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 901,
@@ -9853,7 +9853,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "60 Strength,  56 Slayer,  56 Thieving,  47 Ranged,  45 AgilityCompletion of   The Eyes of Glouphrie",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 911,
@@ -9886,7 +9886,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "60 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "35"
   },
   {
     "id": 941,
@@ -9897,7 +9897,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 942,
@@ -9930,7 +9930,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "15.4"
   },
   {
     "id": 1008,
@@ -9952,7 +9952,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "23.3"
   },
   {
     "id": 1014,
@@ -9996,7 +9996,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1037,
@@ -10018,7 +10018,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "34 Fishing",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 1072,
@@ -10029,7 +10029,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "48 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1084,
@@ -10051,7 +10051,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "62 Magic,  56 SlayerCompletion of   The Path of Glouphrie",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 1096,
@@ -10073,7 +10073,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "40 Cooking",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1108,
@@ -10084,7 +10084,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "55 Fletching",
-    "comp_pct": "<0.1"
+    "comp_pct": "21.8"
   },
   {
     "id": 1111,
@@ -10095,7 +10095,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "40 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 1123,
@@ -10117,7 +10117,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "75 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "30.6"
   },
   {
     "id": 1147,
@@ -10128,7 +10128,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "80 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "18.9"
   },
   {
     "id": 1163,
@@ -10183,7 +10183,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "63 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "23.2"
   },
   {
     "id": 1347,
@@ -10194,7 +10194,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "81 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1354,
@@ -10205,7 +10205,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "90 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1358,
@@ -10271,7 +10271,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1412,
@@ -10304,7 +10304,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "40 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1449,
@@ -10403,7 +10403,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 1540,
@@ -10469,7 +10469,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "5 Fishing",
-    "comp_pct": "0.3"
+    "comp_pct": "13"
   },
   {
     "id": 154,
@@ -10480,7 +10480,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "0.7"
+    "comp_pct": "20"
   },
   {
     "id": 172,
@@ -10491,7 +10491,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "0.7"
+    "comp_pct": "18.4"
   },
   {
     "id": 180,
@@ -10502,7 +10502,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "0.9"
+    "comp_pct": "16.9"
   },
   {
     "id": 185,
@@ -10513,7 +10513,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "0.6"
+    "comp_pct": "19"
   },
   {
     "id": 448,
@@ -10524,7 +10524,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.2"
+    "comp_pct": "14.5"
   },
   {
     "id": 457,
@@ -10535,7 +10535,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "65 FishingPartial completion of   Tai Bwo Wannai Trio",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.5"
   },
   {
     "id": 463,
@@ -10546,7 +10546,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Fishing",
-    "comp_pct": "0.3"
+    "comp_pct": "17.3"
   },
   {
     "id": 472,
@@ -10557,7 +10557,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "35 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.2"
   },
   {
     "id": 501,
@@ -10568,7 +10568,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "See   Karamja Diary#Easy",
-    "comp_pct": "0.1"
+    "comp_pct": "6.9"
   },
   {
     "id": 511,
@@ -10601,7 +10601,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.1"
+    "comp_pct": "13.4"
   },
   {
     "id": 562,
@@ -10612,7 +10612,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "10.2"
   },
   {
     "id": 568,
@@ -10623,7 +10623,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.6"
+    "comp_pct": "24.1"
   },
   {
     "id": 584,
@@ -10634,7 +10634,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.3"
+    "comp_pct": "19.5"
   },
   {
     "id": 591,
@@ -10645,7 +10645,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.9"
   },
   {
     "id": 600,
@@ -10656,7 +10656,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.5"
   },
   {
     "id": 610,
@@ -10667,7 +10667,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.3"
   },
   {
     "id": 611,
@@ -10678,7 +10678,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 Attack",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.3"
   },
   {
     "id": 612,
@@ -10689,7 +10689,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 Attack",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.2"
   },
   {
     "id": 617,
@@ -10700,7 +10700,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "3"
   },
   {
     "id": 619,
@@ -10711,7 +10711,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 687,
@@ -10722,7 +10722,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.2"
+    "comp_pct": "13.9"
   },
   {
     "id": 704,
@@ -10733,7 +10733,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "32 Agility",
-    "comp_pct": "0.2"
+    "comp_pct": "15.4"
   },
   {
     "id": 890,
@@ -10766,7 +10766,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "Fire cape",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 907,
@@ -10777,7 +10777,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "Fire cape",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 908,
@@ -10788,7 +10788,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "Fire cape",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 924,
@@ -10799,7 +10799,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "30 FishingCompletion of   Tai Bwo Wannai Trio",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 925,
@@ -10810,7 +10810,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "30 CookingCompletion of   Tai Bwo Wannai Trio",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1064,
@@ -10821,7 +10821,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "60 DefenceCompletion of   TzHaar Fight Cave",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1080,
@@ -10832,7 +10832,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.6"
   },
   {
     "id": 1052,
@@ -10843,7 +10843,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "60 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1107,
@@ -10854,7 +10854,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "35 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.1"
   },
   {
     "id": 1152,
@@ -10865,7 +10865,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.9"
   },
   {
     "id": 1363,
@@ -10964,7 +10964,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "Completion of   TzHaar Fight Cave",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 1513,
@@ -10986,7 +10986,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "1,000,000",
-    "comp_pct": "0.1"
+    "comp_pct": "4.8"
   },
   {
     "id": 1531,
@@ -11008,7 +11008,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.3"
   },
   {
     "id": 1535,
@@ -11019,7 +11019,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "Completion of   TzHaar Fight Cave",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1564,
@@ -11063,7 +11063,7 @@
     "tier_order": 4,
     "points": 400,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.5"
   },
   {
     "id": 1583,
@@ -11118,7 +11118,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "45.6"
   },
   {
     "id": 113,
@@ -11129,7 +11129,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "52.5"
   },
   {
     "id": 125,
@@ -11140,7 +11140,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "45 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "17.2"
   },
   {
     "id": 130,
@@ -11151,7 +11151,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "44.4"
   },
   {
     "id": 140,
@@ -11162,7 +11162,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "40"
   },
   {
     "id": 160,
@@ -11173,7 +11173,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "50 Firemaking",
-    "comp_pct": "<0.1"
+    "comp_pct": "22.2"
   },
   {
     "id": 162,
@@ -11184,7 +11184,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "40.9"
   },
   {
     "id": 165,
@@ -11195,7 +11195,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "9.5"
   },
   {
     "id": 170,
@@ -11206,7 +11206,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "37.9"
   },
   {
     "id": 175,
@@ -11217,7 +11217,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "57 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "18.8"
   },
   {
     "id": 186,
@@ -11228,7 +11228,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "30 Construction,  30 Crafting",
-    "comp_pct": "<0.1"
+    "comp_pct": "4"
   },
   {
     "id": 196,
@@ -11239,7 +11239,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "48.4"
   },
   {
     "id": 197,
@@ -11250,7 +11250,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "45.7"
   },
   {
     "id": 198,
@@ -11261,7 +11261,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "40.5"
   },
   {
     "id": 206,
@@ -11272,7 +11272,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "61.1"
   },
   {
     "id": 450,
@@ -11283,7 +11283,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "70 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.1"
   },
   {
     "id": 454,
@@ -11294,7 +11294,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "48 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "55.1"
   },
   {
     "id": 470,
@@ -11305,7 +11305,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "41"
   },
   {
     "id": 471,
@@ -11316,7 +11316,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "42 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "37.4"
   },
   {
     "id": 474,
@@ -11327,7 +11327,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "45 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 505,
@@ -11338,7 +11338,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "20 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "18.5"
   },
   {
     "id": 525,
@@ -11349,7 +11349,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "42 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.9"
   },
   {
     "id": 528,
@@ -11360,7 +11360,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 531,
@@ -11371,7 +11371,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 545,
@@ -11393,7 +11393,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "29"
   },
   {
     "id": 556,
@@ -11404,7 +11404,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "38.5"
   },
   {
     "id": 533,
@@ -11415,7 +11415,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.5"
   },
   {
     "id": 534,
@@ -11437,7 +11437,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Firemaking",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.2"
   },
   {
     "id": 580,
@@ -11459,7 +11459,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Spade",
-    "comp_pct": "<0.1"
+    "comp_pct": "40"
   },
   {
     "id": 587,
@@ -11470,7 +11470,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "45 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "26.6"
   },
   {
     "id": 593,
@@ -11481,7 +11481,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "60.1"
   },
   {
     "id": 606,
@@ -11492,7 +11492,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "35 Hunter,  43 Fishing100 Molch pearls",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.8"
   },
   {
     "id": 613,
@@ -11503,7 +11503,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.8"
   },
   {
     "id": 621,
@@ -11514,7 +11514,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.7"
   },
   {
     "id": 636,
@@ -11525,7 +11525,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "18.7"
   },
   {
     "id": 637,
@@ -11536,7 +11536,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "44 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.1"
   },
   {
     "id": 638,
@@ -11547,7 +11547,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "See   Kourend & Kebos Diary#Easy",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.3"
   },
   {
     "id": 639,
@@ -11569,7 +11569,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "42 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.6"
   },
   {
     "id": 655,
@@ -11580,7 +11580,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 657,
@@ -11591,7 +11591,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.9"
   },
   {
     "id": 660,
@@ -11624,7 +11624,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "34 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "17"
   },
   {
     "id": 675,
@@ -11635,7 +11635,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "76 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.6"
   },
   {
     "id": 678,
@@ -11646,7 +11646,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "34 Farming250 Tithe Farm points",
-    "comp_pct": "<0.1"
+    "comp_pct": "16.3"
   },
   {
     "id": 679,
@@ -11657,7 +11657,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "14 Prayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "40.5"
   },
   {
     "id": 689,
@@ -11668,7 +11668,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Smithing",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.7"
   },
   {
     "id": 690,
@@ -11679,7 +11679,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "45 Smithing,  65 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "2"
   },
   {
     "id": 691,
@@ -11690,7 +11690,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Smithing",
-    "comp_pct": "<0.1"
+    "comp_pct": "31.1"
   },
   {
     "id": 693,
@@ -11701,18 +11701,18 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "49 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "1"
   },
   {
     "id": 694,
     "name": "Steal 15 Artefacts",
-    "description": "Steal 10 artefacts for Captain Khaled in Piscarilius.",
+    "description": "Steal 15 artefacts for Captain Khaled in Piscarilius.",
     "region": "kourend",
     "tier": "medium",
     "tier_order": 1,
     "points": 30,
     "requirements": "49 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 698,
@@ -11723,7 +11723,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "25 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "41.5"
   },
   {
     "id": 706,
@@ -11745,7 +11745,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "32.8"
   },
   {
     "id": 868,
@@ -11811,7 +11811,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "90 Firemaking,  90 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 895,
@@ -11822,7 +11822,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "75 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.4"
   },
   {
     "id": 898,
@@ -11844,7 +11844,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "45 AttackAny crossbow and a mith grapple",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.9"
   },
   {
     "id": 927,
@@ -11866,7 +11866,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "42 Mining,  42 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 939,
@@ -11932,7 +11932,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1017,
@@ -12031,7 +12031,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "85 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "9.8"
   },
   {
     "id": 1045,
@@ -12053,7 +12053,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "34 Farming or Nature's Accord",
-    "comp_pct": "<0.1"
+    "comp_pct": "13.6"
   },
   {
     "id": 1104,
@@ -12064,7 +12064,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "50 Firemaking",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1053,
@@ -12075,7 +12075,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "20 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.6"
   },
   {
     "id": 1117,
@@ -12086,7 +12086,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "36 Farming,  50 Prayer,  65 Cooking",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 1122,
@@ -12119,7 +12119,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "54 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "15.3"
   },
   {
     "id": 1149,
@@ -12130,7 +12130,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "74 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "10.5"
   },
   {
     "id": 1151,
@@ -12152,7 +12152,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "16.3"
   },
   {
     "id": 1338,
@@ -12196,7 +12196,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "84 Cooking",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1375,
@@ -12295,7 +12295,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "35 Hunter,  43 Fishing",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 1450,
@@ -12460,7 +12460,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "22"
   },
   {
     "id": 133,
@@ -12471,7 +12471,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "15 Crafting",
-    "comp_pct": "<0.1"
+    "comp_pct": "40.5"
   },
   {
     "id": 153,
@@ -12482,7 +12482,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "42.4"
   },
   {
     "id": 156,
@@ -12493,7 +12493,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "73.8"
   },
   {
     "id": 166,
@@ -12504,7 +12504,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "15.6"
   },
   {
     "id": 176,
@@ -12526,7 +12526,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "24.2"
   },
   {
     "id": 209,
@@ -12537,7 +12537,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "35.1"
   },
   {
     "id": 210,
@@ -12548,7 +12548,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "41.3"
   },
   {
     "id": 445,
@@ -12559,7 +12559,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Completion of   Shades of Mort'ton",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 446,
@@ -12581,7 +12581,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "29 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "15.2"
   },
   {
     "id": 468,
@@ -12603,7 +12603,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "12.9"
   },
   {
     "id": 493,
@@ -12614,7 +12614,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "13.9"
   },
   {
     "id": 477,
@@ -12625,7 +12625,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "35 Crafting",
-    "comp_pct": "<0.1"
+    "comp_pct": "8.6"
   },
   {
     "id": 478,
@@ -12636,7 +12636,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "51.5"
   },
   {
     "id": 495,
@@ -12647,7 +12647,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "46.6"
   },
   {
     "id": 502,
@@ -12658,7 +12658,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "See   Morytania Diary#Easy",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 512,
@@ -12680,7 +12680,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.7"
   },
   {
     "id": 523,
@@ -12735,7 +12735,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Partial completion of   Sins of the Father",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 607,
@@ -12746,7 +12746,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "70 Defence,  70 Attack, or  70 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "10"
   },
   {
     "id": 608,
@@ -12757,7 +12757,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Completion of   Lair of Tarn Razorlor",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.9"
   },
   {
     "id": 623,
@@ -12768,7 +12768,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.6"
   },
   {
     "id": 625,
@@ -12812,7 +12812,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Big bass requires  46 Fishing, crawling hand requires  5 Slayer, Kbd heads require  Wilderness\u2713, Kq head requires  Desert\u2713, Vorkath's head requires  Fremennik\u2713",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.6"
   },
   {
     "id": 641,
@@ -12823,7 +12823,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "65.1"
   },
   {
     "id": 664,
@@ -12845,7 +12845,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Partial completion of   Sins of the Father",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 677,
@@ -12867,7 +12867,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "30 Smithing",
-    "comp_pct": "<0.1"
+    "comp_pct": "15.3"
   },
   {
     "id": 692,
@@ -12878,7 +12878,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Partial completion of   Garden of Tranquility",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 705,
@@ -12889,7 +12889,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "33 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "17.5"
   },
   {
     "id": 723,
@@ -12900,7 +12900,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "15 CraftingChisel",
-    "comp_pct": "<0.1"
+    "comp_pct": "26"
   },
   {
     "id": 725,
@@ -12911,7 +12911,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "17.1"
   },
   {
     "id": 874,
@@ -12922,7 +12922,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "58 Slayer,  55 CraftingUnlocked Malevolent Masquerade for 400 Slayer reward points",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.1"
   },
   {
     "id": 878,
@@ -13131,7 +13131,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "70 Defence, one of  70 Attack or  70 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1044,
@@ -13153,7 +13153,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "70 Magic,  70 Defence,  70 Attack",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1047,
@@ -13285,7 +13285,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.3"
   },
   {
     "id": 1339,
@@ -13604,7 +13604,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "40.2"
   },
   {
     "id": 131,
@@ -13615,7 +13615,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "49.3"
   },
   {
     "id": 135,
@@ -13626,7 +13626,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "34.8"
   },
   {
     "id": 148,
@@ -13637,7 +13637,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "37.4"
   },
   {
     "id": 194,
@@ -13648,7 +13648,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "47.2"
   },
   {
     "id": 200,
@@ -13659,7 +13659,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "32.5"
   },
   {
     "id": 459,
@@ -13670,7 +13670,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "80 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "18.8"
   },
   {
     "id": 467,
@@ -13692,7 +13692,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "45 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "25.8"
   },
   {
     "id": 539,
@@ -13703,7 +13703,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "69.7"
   },
   {
     "id": 541,
@@ -13714,7 +13714,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Slayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.1"
   },
   {
     "id": 553,
@@ -13725,7 +13725,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "70 Slayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 571,
@@ -13736,7 +13736,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "49.8"
   },
   {
     "id": 646,
@@ -13747,7 +13747,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "40 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "45.2"
   },
   {
     "id": 649,
@@ -13769,7 +13769,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "18.5"
   },
   {
     "id": 680,
@@ -13780,7 +13780,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "28.8"
   },
   {
     "id": 703,
@@ -13791,7 +13791,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "27.5"
   },
   {
     "id": 708,
@@ -13802,7 +13802,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "39.8"
   },
   {
     "id": 720,
@@ -13813,7 +13813,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "22.9"
   },
   {
     "id": 891,
@@ -13824,7 +13824,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "74 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 893,
@@ -13835,7 +13835,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "35 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "37.3"
   },
   {
     "id": 894,
@@ -13846,7 +13846,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "75 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.2"
   },
   {
     "id": 899,
@@ -13868,7 +13868,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "24.3"
   },
   {
     "id": 910,
@@ -13879,7 +13879,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "38"
   },
   {
     "id": 919,
@@ -13890,7 +13890,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "75 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.1"
   },
   {
     "id": 920,
@@ -13901,7 +13901,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "75 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.2"
   },
   {
     "id": 928,
@@ -13923,7 +13923,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "70 Smithing,  70 Crafting",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.8"
   },
   {
     "id": 931,
@@ -13934,7 +13934,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "80 Smithing,  80 Crafting",
-    "comp_pct": "<0.1"
+    "comp_pct": "13.7"
   },
   {
     "id": 933,
@@ -13956,7 +13956,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "70 Herblore",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 935,
@@ -13978,7 +13978,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 1004,
@@ -14011,7 +14011,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.9"
   },
   {
     "id": 998,
@@ -14022,7 +14022,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "44.8"
   },
   {
     "id": 999,
@@ -14033,7 +14033,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1000,
@@ -14044,7 +14044,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.7"
   },
   {
     "id": 1001,
@@ -14077,7 +14077,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "50 Agility,  70 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.8"
   },
   {
     "id": 1057,
@@ -14088,7 +14088,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "50 Agility,  70 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 1058,
@@ -14110,7 +14110,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "50 Attack,  55 Slayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1098,
@@ -14121,7 +14121,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "70 DefenceCompletion of   The Gauntlet",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 1106,
@@ -14132,7 +14132,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "75 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 1118,
@@ -14143,7 +14143,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "61 Farming",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1126,
@@ -14165,7 +14165,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.3"
   },
   {
     "id": 1130,
@@ -14176,7 +14176,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "70 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "8.3"
   },
   {
     "id": 1141,
@@ -14187,7 +14187,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 1146,
@@ -14198,7 +14198,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "85 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "41.4"
   },
   {
     "id": 1153,
@@ -14209,7 +14209,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.6"
   },
   {
     "id": 1154,
@@ -14220,7 +14220,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "80 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.9"
   },
   {
     "id": 1164,
@@ -14231,7 +14231,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "75 Thieving",
-    "comp_pct": "<0.1"
+    "comp_pct": "33.4"
   },
   {
     "id": 1174,
@@ -14242,7 +14242,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1346,
@@ -14253,7 +14253,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "63 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "20.1"
   },
   {
     "id": 1349,
@@ -14286,7 +14286,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "Complete the regular Gauntlet once",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1357,
@@ -14297,7 +14297,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "Complete the regular Gauntlet once",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.3"
   },
   {
     "id": 1377,
@@ -14308,7 +14308,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "78 Fletching",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1378,
@@ -14319,7 +14319,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "59 Crafting",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1380,
@@ -14396,7 +14396,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1414,
@@ -14429,7 +14429,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "70 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1462,
@@ -14462,7 +14462,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "80 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.4"
   },
   {
     "id": 1486,
@@ -14506,7 +14506,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "85 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 1526,
@@ -14517,7 +14517,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "70 Mining,  70 Smithing",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 1527,
@@ -14528,7 +14528,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1542,
@@ -14539,7 +14539,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "90 Prayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1545,
@@ -14583,7 +14583,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "43.1"
+    "comp_pct": "65.2"
   },
   {
     "id": 74,
@@ -14594,7 +14594,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "73.1"
+    "comp_pct": "80.9"
   },
   {
     "id": 75,
@@ -14605,7 +14605,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "500",
-    "comp_pct": "31.4"
+    "comp_pct": "51.9"
   },
   {
     "id": 76,
@@ -14616,7 +14616,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "31.8"
+    "comp_pct": "58.8"
   },
   {
     "id": 77,
@@ -14627,7 +14627,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "20 Fletching",
-    "comp_pct": "14.3"
+    "comp_pct": "41.3"
   },
   {
     "id": 78,
@@ -14638,7 +14638,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "73.5"
+    "comp_pct": "80.9"
   },
   {
     "id": 79,
@@ -14649,7 +14649,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "38.5"
+    "comp_pct": "59.6"
   },
   {
     "id": 80,
@@ -14660,7 +14660,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "43.3"
+    "comp_pct": "67.2"
   },
   {
     "id": 81,
@@ -14671,7 +14671,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "4.2"
+    "comp_pct": "34"
   },
   {
     "id": 82,
@@ -14682,7 +14682,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "56.7"
+    "comp_pct": "70.7"
   },
   {
     "id": 83,
@@ -14693,7 +14693,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "9"
+    "comp_pct": "37.7"
   },
   {
     "id": 84,
@@ -14704,7 +14704,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "4.5"
+    "comp_pct": "33.4"
   },
   {
     "id": 85,
@@ -14715,18 +14715,18 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "12.1"
+    "comp_pct": "38"
   },
   {
     "id": 86,
     "name": "Drink a cup of tea in auburn valley",
-    "description": "Drink a cup of tea in the Auburn Valley.",
+    "description": "Drink a cup of tea in the Nemus Retreat or the Auburn Valley. NOTE: Drinking in Auburnvale does NOT complete this task.",
     "region": "varlamore",
     "tier": "easy",
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "20.1"
+    "comp_pct": "41.6"
   },
   {
     "id": 87,
@@ -14737,7 +14737,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "66.7"
+    "comp_pct": "75.7"
   },
   {
     "id": 88,
@@ -14748,7 +14748,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "53.2"
+    "comp_pct": "67.4"
   },
   {
     "id": 89,
@@ -14759,7 +14759,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "10.5"
+    "comp_pct": "31.8"
   },
   {
     "id": 90,
@@ -14770,7 +14770,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "38.4"
+    "comp_pct": "56"
   },
   {
     "id": 91,
@@ -14781,7 +14781,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "61.9"
+    "comp_pct": "75.5"
   },
   {
     "id": 92,
@@ -14792,7 +14792,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "52.7"
+    "comp_pct": "64.6"
   },
   {
     "id": 93,
@@ -14803,7 +14803,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "2.6"
+    "comp_pct": "11.5"
   },
   {
     "id": 94,
@@ -14814,7 +14814,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "67.4"
+    "comp_pct": "77"
   },
   {
     "id": 95,
@@ -14825,7 +14825,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "30 Mining",
-    "comp_pct": "6.4"
+    "comp_pct": "42.4"
   },
   {
     "id": 98,
@@ -14836,7 +14836,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "16.3"
+    "comp_pct": "43.8"
   },
   {
     "id": 96,
@@ -14847,7 +14847,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "76"
+    "comp_pct": "82.3"
   },
   {
     "id": 97,
@@ -14858,7 +14858,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "67.3"
+    "comp_pct": "76.7"
   },
   {
     "id": 99,
@@ -14869,7 +14869,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "63.7"
+    "comp_pct": "78.6"
   },
   {
     "id": 100,
@@ -14880,7 +14880,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "61.3"
+    "comp_pct": "71.7"
   },
   {
     "id": 101,
@@ -14891,7 +14891,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "13.7"
+    "comp_pct": "43.2"
   },
   {
     "id": 102,
@@ -14902,7 +14902,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "47.5"
+    "comp_pct": "66"
   },
   {
     "id": 103,
@@ -14913,7 +14913,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "57.5"
+    "comp_pct": "68.7"
   },
   {
     "id": 104,
@@ -14924,7 +14924,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "43.6"
+    "comp_pct": "74.2"
   },
   {
     "id": 105,
@@ -14935,7 +14935,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "59.3"
+    "comp_pct": "70.7"
   },
   {
     "id": 106,
@@ -14946,7 +14946,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "25"
+    "comp_pct": "51.7"
   },
   {
     "id": 107,
@@ -14957,7 +14957,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "47.3"
+    "comp_pct": "68.8"
   },
   {
     "id": 108,
@@ -14968,7 +14968,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "79.4"
+    "comp_pct": "88.8"
   },
   {
     "id": 109,
@@ -14979,7 +14979,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "9.9"
+    "comp_pct": "42.2"
   },
   {
     "id": 110,
@@ -14990,7 +14990,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "18.3"
+    "comp_pct": "58.1"
   },
   {
     "id": 386,
@@ -15001,7 +15001,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Death on the Isle",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.8"
   },
   {
     "id": 387,
@@ -15012,7 +15012,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Death on the Isle",
-    "comp_pct": "2.4"
+    "comp_pct": "9.4"
   },
   {
     "id": 388,
@@ -15023,7 +15023,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "41 MiningHammer and any Pickaxe",
-    "comp_pct": "0.2"
+    "comp_pct": "6.1"
   },
   {
     "id": 389,
@@ -15034,7 +15034,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "46 Hunter",
-    "comp_pct": "0.1"
+    "comp_pct": "4.2"
   },
   {
     "id": 390,
@@ -15045,7 +15045,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Wyrm bones or wyrmling bones",
-    "comp_pct": "<0.1"
+    "comp_pct": "4"
   },
   {
     "id": 391,
@@ -15056,7 +15056,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "39 HunterBox trap",
-    "comp_pct": "8"
+    "comp_pct": "24.9"
   },
   {
     "id": 392,
@@ -15067,7 +15067,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "57 HunterKnife and Logs",
-    "comp_pct": "2.4"
+    "comp_pct": "15.8"
   },
   {
     "id": 393,
@@ -15078,7 +15078,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "46 Hunter",
-    "comp_pct": "0.4"
+    "comp_pct": "10"
   },
   {
     "id": 394,
@@ -15089,7 +15089,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Agility",
-    "comp_pct": "0.8"
+    "comp_pct": "12"
   },
   {
     "id": 395,
@@ -15100,7 +15100,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "46 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.1"
   },
   {
     "id": 401,
@@ -15111,7 +15111,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "46 Hunter",
-    "comp_pct": "3.2"
+    "comp_pct": "19.8"
   },
   {
     "id": 402,
@@ -15122,7 +15122,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "15 Woodcutting",
-    "comp_pct": "7.3"
+    "comp_pct": "21"
   },
   {
     "id": 396,
@@ -15133,7 +15133,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "46 Hunter,  30 Herblore,  27 Construction",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.2"
   },
   {
     "id": 397,
@@ -15144,7 +15144,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "34 Thieving,  32 Agility",
-    "comp_pct": "4.2"
+    "comp_pct": "15"
   },
   {
     "id": 398,
@@ -15155,7 +15155,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.1"
   },
   {
     "id": 399,
@@ -15177,7 +15177,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "55 Mining,  48 Thieving,  48 Slayer,  46 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.3"
   },
   {
     "id": 400,
@@ -15188,7 +15188,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.2"
   },
   {
     "id": 404,
@@ -15199,7 +15199,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "46 Hunter",
-    "comp_pct": "0.2"
+    "comp_pct": "9"
   },
   {
     "id": 405,
@@ -15210,7 +15210,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "The Heart of Darkness,  55 Mining,  48 Thieving,  48 Slayer,  46 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 408,
@@ -15221,7 +15221,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "3.1"
+    "comp_pct": "26.9"
   },
   {
     "id": 409,
@@ -15232,7 +15232,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "A weapon to safespot or  43 Prayer",
-    "comp_pct": "3"
+    "comp_pct": "27.4"
   },
   {
     "id": 410,
@@ -15243,7 +15243,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "1.9"
+    "comp_pct": "24.9"
   },
   {
     "id": 406,
@@ -15254,7 +15254,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "The Heart of Darkness,  55 Mining,  48 Thieving,  48 Slayer,  46 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "1"
   },
   {
     "id": 407,
@@ -15265,7 +15265,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "9.5"
   },
   {
     "id": 411,
@@ -15276,7 +15276,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.5"
   },
   {
     "id": 412,
@@ -15309,7 +15309,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "0.8"
+    "comp_pct": "14.2"
   },
   {
     "id": 419,
@@ -15342,7 +15342,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Scrambled!",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 422,
@@ -15353,7 +15353,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "43 Agility",
-    "comp_pct": "0.3"
+    "comp_pct": "5"
   },
   {
     "id": 423,
@@ -15364,7 +15364,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Defence and one of  75 Strength,  75 Magic, or  75 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 415,
@@ -15386,7 +15386,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "48 Slayer,  55 Attack",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.5"
   },
   {
     "id": 417,
@@ -15397,7 +15397,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "48 Slayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 418,
@@ -15408,7 +15408,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "55 Attack",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.9"
   },
   {
     "id": 424,
@@ -15419,7 +15419,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "2.6"
+    "comp_pct": "12.3"
   },
   {
     "id": 425,
@@ -15430,7 +15430,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "45.3"
+    "comp_pct": "63.5"
   },
   {
     "id": 426,
@@ -15441,7 +15441,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Big fishing net",
-    "comp_pct": "27"
+    "comp_pct": "52.5"
   },
   {
     "id": 427,
@@ -15452,7 +15452,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 FletchingKnife and 5 Maple logs",
-    "comp_pct": "4.9"
+    "comp_pct": "29.6"
   },
   {
     "id": 428,
@@ -15463,7 +15463,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "35 FletchingKnife and 5 Willow logs",
-    "comp_pct": "10.3"
+    "comp_pct": "35.8"
   },
   {
     "id": 429,
@@ -15474,7 +15474,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "20 FletchingKnife and 5 Oak logs",
-    "comp_pct": "16.1"
+    "comp_pct": "41.4"
   },
   {
     "id": 430,
@@ -15485,7 +15485,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "1 Agility",
-    "comp_pct": "18.8"
+    "comp_pct": "48.5"
   },
   {
     "id": 431,
@@ -15496,7 +15496,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "53 Fletching5 Ent branches, Greenman mask, Maple logs, and a Knife",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.8"
   },
   {
     "id": 432,
@@ -15507,7 +15507,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "55 Mining",
-    "comp_pct": "0.7"
+    "comp_pct": "28.4"
   },
   {
     "id": 433,
@@ -15518,7 +15518,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "41 Mining",
-    "comp_pct": "1.3"
+    "comp_pct": "18.4"
   },
   {
     "id": 434,
@@ -15529,7 +15529,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Thieving",
-    "comp_pct": "0.7"
+    "comp_pct": "10.4"
   },
   {
     "id": 435,
@@ -15540,7 +15540,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "55 Thieving",
-    "comp_pct": "0.4"
+    "comp_pct": "10.4"
   },
   {
     "id": 436,
@@ -15551,7 +15551,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Thieving",
-    "comp_pct": "1.6"
+    "comp_pct": "16.1"
   },
   {
     "id": 437,
@@ -15562,7 +15562,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Thieving",
-    "comp_pct": "0.4"
+    "comp_pct": "10.9"
   },
   {
     "id": 438,
@@ -15573,7 +15573,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Thieving",
-    "comp_pct": "2.3"
+    "comp_pct": "17.6"
   },
   {
     "id": 439,
@@ -15584,7 +15584,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "50 Thieving",
-    "comp_pct": "3.1"
+    "comp_pct": "20.4"
   },
   {
     "id": 440,
@@ -15595,7 +15595,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "65 Thieving",
-    "comp_pct": "0.4"
+    "comp_pct": "9.5"
   },
   {
     "id": 441,
@@ -15606,7 +15606,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "20 Fletching  Vale Totems",
-    "comp_pct": "0.1"
+    "comp_pct": "3.5"
   },
   {
     "id": 442,
@@ -15617,7 +15617,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "41 Mining",
-    "comp_pct": "0.3"
+    "comp_pct": "7.8"
   },
   {
     "id": 443,
@@ -15628,7 +15628,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "54 Magic",
-    "comp_pct": "0.3"
+    "comp_pct": "19.7"
   },
   {
     "id": 444,
@@ -15639,7 +15639,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "13.1"
+    "comp_pct": "37.2"
   },
   {
     "id": 825,
@@ -15661,7 +15661,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 827,
@@ -15672,7 +15672,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "72 Hunter",
-    "comp_pct": "0.3"
+    "comp_pct": "7.2"
   },
   {
     "id": 828,
@@ -15683,7 +15683,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "85 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "3.8"
   },
   {
     "id": 829,
@@ -15705,7 +15705,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "75 Woodcutting",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.7"
   },
   {
     "id": 831,
@@ -15716,7 +15716,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "46 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 832,
@@ -15760,7 +15760,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 836,
@@ -15848,7 +15848,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "20 FletchingCompletion of   Vale Totems",
-    "comp_pct": "0.2"
+    "comp_pct": "4.7"
   },
   {
     "id": 845,
@@ -15859,7 +15859,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "20 FletchingCompletion of   Vale Totems",
-    "comp_pct": "0.2"
+    "comp_pct": "3.8"
   },
   {
     "id": 846,
@@ -15947,7 +15947,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "46 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.9"
   },
   {
     "id": 853,
@@ -15991,7 +15991,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "80 Fletching",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.6"
   },
   {
     "id": 857,
@@ -16002,7 +16002,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "65 Fletching",
-    "comp_pct": "0.1"
+    "comp_pct": "5.6"
   },
   {
     "id": 858,
@@ -16046,7 +16046,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "79 Fletching",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 862,
@@ -16057,7 +16057,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "46 Hunter",
-    "comp_pct": "0.4"
+    "comp_pct": "9.2"
   },
   {
     "id": 863,
@@ -16090,7 +16090,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "50 Thieving",
-    "comp_pct": "0.6"
+    "comp_pct": "10.1"
   },
   {
     "id": 866,
@@ -16123,7 +16123,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "91 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.3"
   },
   {
     "id": 1317,
@@ -16288,7 +16288,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "90 Fletching",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 1332,
@@ -16409,7 +16409,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "81.9"
   },
   {
     "id": 146,
@@ -16420,7 +16420,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "44.1"
   },
   {
     "id": 147,
@@ -16431,7 +16431,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "49"
   },
   {
     "id": 158,
@@ -16442,7 +16442,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "52"
   },
   {
     "id": 168,
@@ -16453,7 +16453,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "26"
   },
   {
     "id": 169,
@@ -16464,7 +16464,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "40.7"
   },
   {
     "id": 171,
@@ -16475,7 +16475,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "51.4"
   },
   {
     "id": 177,
@@ -16486,7 +16486,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "79.2"
   },
   {
     "id": 178,
@@ -16497,7 +16497,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "37.3"
   },
   {
     "id": 190,
@@ -16508,7 +16508,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "76.1"
   },
   {
     "id": 199,
@@ -16519,7 +16519,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "56.3"
   },
   {
     "id": 207,
@@ -16530,7 +16530,7 @@
     "tier_order": 0,
     "points": 10,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "86.8"
   },
   {
     "id": 447,
@@ -16541,7 +16541,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "56.8"
   },
   {
     "id": 449,
@@ -16552,7 +16552,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 MagicCompletion of   Mage Arena I",
-    "comp_pct": "<0.1"
+    "comp_pct": "13.5"
   },
   {
     "id": 451,
@@ -16563,7 +16563,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 MagicCompletion of   Mage Arena I",
-    "comp_pct": "<0.1"
+    "comp_pct": "13.9"
   },
   {
     "id": 455,
@@ -16574,7 +16574,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 MagicCompletion of   Mage Arena I",
-    "comp_pct": "<0.1"
+    "comp_pct": "14.4"
   },
   {
     "id": 458,
@@ -16585,7 +16585,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "67 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "8.3"
   },
   {
     "id": 503,
@@ -16607,7 +16607,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "See   Wilderness Diary#Medium",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 517,
@@ -16618,7 +16618,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "52 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "36.8"
   },
   {
     "id": 548,
@@ -16629,7 +16629,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "59.4"
   },
   {
     "id": 555,
@@ -16640,7 +16640,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "57.1"
   },
   {
     "id": 558,
@@ -16651,7 +16651,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.9"
   },
   {
     "id": 572,
@@ -16662,7 +16662,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "11.6"
   },
   {
     "id": 573,
@@ -16673,7 +16673,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "50.1"
   },
   {
     "id": 581,
@@ -16684,7 +16684,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "Use a gold ring on the Wilderness Volcano",
-    "comp_pct": "<0.1"
+    "comp_pct": "14.4"
   },
   {
     "id": 586,
@@ -16695,7 +16695,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "48.1"
   },
   {
     "id": 595,
@@ -16706,7 +16706,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "25.6"
   },
   {
     "id": 599,
@@ -16717,7 +16717,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "9.2"
   },
   {
     "id": 601,
@@ -16728,7 +16728,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 MagicCompletion of   Mage Arena I",
-    "comp_pct": "<0.1"
+    "comp_pct": "38.3"
   },
   {
     "id": 652,
@@ -16739,7 +16739,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "60 Strength or  60 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.9"
   },
   {
     "id": 658,
@@ -16750,7 +16750,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.5"
   },
   {
     "id": 659,
@@ -16761,7 +16761,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.5"
   },
   {
     "id": 661,
@@ -16772,7 +16772,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.7"
   },
   {
     "id": 663,
@@ -16783,7 +16783,7 @@
     "tier_order": 1,
     "points": 30,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "10.9"
   },
   {
     "id": 721,
@@ -16816,7 +16816,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "73 Hunter",
-    "comp_pct": "<0.1"
+    "comp_pct": "18.6"
   },
   {
     "id": 918,
@@ -16838,7 +16838,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "72 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "6.4"
   },
   {
     "id": 1013,
@@ -16849,7 +16849,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "85 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "4.6"
   },
   {
     "id": 950,
@@ -16860,7 +16860,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "10"
   },
   {
     "id": 951,
@@ -16904,7 +16904,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.9"
   },
   {
     "id": 1020,
@@ -16915,7 +16915,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "6"
   },
   {
     "id": 1021,
@@ -16948,7 +16948,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "7.4"
   },
   {
     "id": 982,
@@ -16959,7 +16959,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "2.9"
   },
   {
     "id": 983,
@@ -17003,7 +17003,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "6.2"
   },
   {
     "id": 987,
@@ -17047,7 +17047,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "73 Hunter,  65 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "6.8"
   },
   {
     "id": 1043,
@@ -17058,7 +17058,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "73 Hunter,  65 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "6.3"
   },
   {
     "id": 1060,
@@ -17069,7 +17069,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "60 Attack",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.8"
   },
   {
     "id": 1074,
@@ -17080,7 +17080,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "60 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1078,
@@ -17102,7 +17102,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "75 Magic,  55 Slayer",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.6"
   },
   {
     "id": 1095,
@@ -17124,7 +17124,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1136,
@@ -17135,7 +17135,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1137,
@@ -17157,7 +17157,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.5"
   },
   {
     "id": 1139,
@@ -17179,7 +17179,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "52 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "9.8"
   },
   {
     "id": 1160,
@@ -17190,7 +17190,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "49.7"
   },
   {
     "id": 1172,
@@ -17201,7 +17201,7 @@
     "tier_order": 2,
     "points": 80,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1365,
@@ -17234,7 +17234,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "65 Agility",
-    "comp_pct": "<0.1"
+    "comp_pct": "20.9"
   },
   {
     "id": 1410,
@@ -17267,7 +17267,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "73 Hunter,  65 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "5.9"
   },
   {
     "id": 1425,
@@ -17289,7 +17289,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "70 Magic,  40 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1461,
@@ -17300,7 +17300,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "70 Magic,  40 Defence",
-    "comp_pct": "<0.1"
+    "comp_pct": "1.2"
   },
   {
     "id": 1467,
@@ -17322,7 +17322,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "60",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 1472,
@@ -17333,7 +17333,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1474,
@@ -17344,7 +17344,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.1"
   },
   {
     "id": 1417,
@@ -17355,7 +17355,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "60 Ranged",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.4"
   },
   {
     "id": 1492,
@@ -17366,7 +17366,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "40 Magic",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 1495,
@@ -17421,7 +17421,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "60 Attack",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.3"
   },
   {
     "id": 1515,
@@ -17432,7 +17432,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "75 MagicCompletion of   Mage Arena II",
-    "comp_pct": "<0.1"
+    "comp_pct": "11.2"
   },
   {
     "id": 1518,
@@ -17442,7 +17442,7 @@
     "tier": "elite",
     "tier_order": 3,
     "points": 200,
-    "requirements": "84 Thieving",
+    "requirements": "84 Thieving,   Wilderness Diary#Medium",
     "comp_pct": "<0.1"
   },
   {
@@ -17465,7 +17465,7 @@
     "tier_order": 3,
     "points": 200,
     "requirements": "85 Mining",
-    "comp_pct": "<0.1"
+    "comp_pct": "0.2"
   },
   {
     "id": 1525,

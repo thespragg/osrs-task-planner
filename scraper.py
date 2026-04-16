@@ -99,7 +99,7 @@ def update_bundle(tasks, html_path="index.html"):
     )
     updated = re.sub(
         r'<script>window\.TASKS_DATA\s*=\s*\[.*?\]</script>',
-        new_tag,
+        lambda _: new_tag,
         content,
         flags=re.DOTALL,
     )
