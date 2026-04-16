@@ -89,6 +89,30 @@ def parse_tasks(html):
     return tasks
 
 
+def update_bundle(tasks, html_path="index.html"):
+    """Replace the inline TASKS_DATA bundle in index.html."""
+    with open(html_path) as f:
+        content = f.read()
+
+    new_tag = (
+        f'<script>window.TASKS_DATA = {json.dumps(tasks, separators=(",", ":"))}</script>'
+    )
+    updated = re.sub(
+        r'<script>window\.TASKS_DATA\s*=\s*\[.*?\]</script>',
+        new_tag,
+        content,
+        flags=re.DOTALL,
+    )
+
+    if updated == content:
+        print("Warning: could not find TASKS_DATA bundle in index.html")
+        return
+
+    with open(html_path, "w") as f:
+        f.write(updated)
+    print(f"Updated bundle in {html_path}")
+
+
 def main():
     out = sys.argv[1] if len(sys.argv) > 1 else "tasks.json"
 
@@ -101,6 +125,8 @@ def main():
     with open(out, "w") as f:
         json.dump(tasks, f, indent=2)
     print(f"Saved to {out}")
+
+    update_bundle(tasks)
 
 
 if __name__ == "__main__":
