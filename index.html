@@ -440,6 +440,10 @@
     <span class="filter-label">Area:</span>
     <div class="filter-group" id="area-filters"></div>
   </div>
+  <div class="filter-group" id="skill-filter-group" style="display:none">
+    <span class="filter-label">Skill Req:</span>
+    <div class="filter-group" id="skill-filters"></div>
+  </div>
   <div class="filter-group" style="margin-left:auto;gap:6px;">
     <button class="toggle-btn" id="btn-hide-locked" onclick="toggleHideLocked()">Hide Locked</button>
     <button class="toggle-btn" id="btn-show-completed" onclick="toggleShowCompleted()">Show Completed</button>
@@ -499,6 +503,7 @@
   let collapsedRegions = {};
   let activeTiers = new Set(["easy","medium","hard","elite","master"]);
   let activeAreas = new Set();
+  let activeSkillReqs = new Set();
   let sortMode = "default";     // "default" | "comp" | "points"
   let hideLocked = false;
   let showCompleted = false;
@@ -551,6 +556,7 @@
     planned = planned.filter(id => id < 0 || (ids.has(id) && !completedIds.has(id)));
     document.getElementById("load-status").textContent = `${data.length} tasks loaded`;
     initAreaFilters();
+    initSkillFilters();
     render();
   }
 
@@ -664,6 +670,28 @@
     document.getElementById("area-filter-group").style.display = "";
   }
 
+  function initSkillFilters() {
+    const present = SKILLS.filter(s =>
+      allTasks.some(t => t.requirements && t.requirements.toLowerCase().includes(s.toLowerCase()))
+    );
+    if (saved.activeSkillReqs) activeSkillReqs = new Set(saved.activeSkillReqs.filter(s => present.includes(s)));
+    const container = document.getElementById("skill-filters");
+    container.innerHTML = "";
+    present.forEach(s => {
+      const btn = document.createElement("button");
+      btn.className = "area-btn" + (activeSkillReqs.has(s) ? " active" : "");
+      btn.textContent = s;
+      btn.onclick = () => {
+        if (activeSkillReqs.has(s)) activeSkillReqs.delete(s);
+        else activeSkillReqs.add(s);
+        btn.classList.toggle("active");
+        render();
+      };
+      container.appendChild(btn);
+    });
+    document.getElementById("skill-filter-group").style.display = "";
+  }
+
   // ── Render ────────────────────────────────────────────────────────────────
 
   function render() {
@@ -677,6 +705,7 @@
       !manuallyCompleted.has(t.id) &&
       activeTiers.has(t.tier) &&
       activeAreas.has(t.region) &&
+      (activeSkillReqs.size === 0 || [...activeSkillReqs].some(s => t.requirements && t.requirements.toLowerCase().includes(s.toLowerCase()))) &&
       (!query || t.name.toLowerCase().includes(query) ||
                  t.description.toLowerCase().includes(query));
 
@@ -1009,6 +1038,7 @@
       manualTasks,
       nextManualId,
       activeAreas: [...activeAreas],
+      activeSkillReqs: [...activeSkillReqs],
       completedIds: [...completedIds],
       manuallyCompleted: [...manuallyCompleted],
       hiddenIds: [...hiddenIds],
