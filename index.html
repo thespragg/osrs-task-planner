@@ -566,7 +566,14 @@
     const status = document.getElementById("progress-status");
     status.textContent = "Syncing...";
     status.style.color = "#888";
-    fetch(`https://sync.runescape.wiki/runelite/player/${encodeURIComponent(username)}/DEMONIC_PACTS_LEAGUE`)
+    fetch(`https://sync.runescape.wiki/runelite/player/${encodeURIComponent(username)}/DEMONIC_PACTS_LEAGUE`, {
+        headers: {
+          "Accept": "application/json, text/plain, */*",
+          "Accept-Language": "en-US,en;q=0.9",
+          "Cache-Control": "no-cache",
+          "Pragma": "no-cache"
+        }
+      })
       .then(r => { if (!r.ok) throw new Error(`${r.status}`); return r.json(); })
       .then(data => applyProgress(data, username))
       .catch(err => {
