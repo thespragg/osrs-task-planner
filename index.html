@@ -140,6 +140,7 @@
   .panel-count { margin-left: auto; font-size: 11px; color: var(--text-dim); }
 
   .planned-pts { font-size: 13px; font-weight: 700; color: var(--gold); margin-left: auto; }
+  .planned-count { font-size: 11px; color: var(--text-dim); margin-left: 8px; }
 
   /* Relic progress bar */
   .relic-progress {
@@ -474,6 +475,7 @@
     <div class="panel-header">
       <h2>Planned</h2>
       <span class="planned-pts" id="planned-pts">0 pts</span>
+      <span class="planned-count" id="planned-count"></span>
     </div>
     <div class="panel-body" id="planned-list"></div>
     <div class="note-bar">
@@ -842,8 +844,10 @@
 
     const plannedTasks = planned.map(id => lookupTask(id)).filter(Boolean);
     const totalPts = plannedTasks.reduce((s, t) => s + (t.points || 0), 0);
+    const taskCount = plannedTasks.filter(t => !t.isManual).length;
 
     document.getElementById("planned-pts").textContent = `${totalPts.toLocaleString()} pts`;
+    document.getElementById("planned-count").textContent = taskCount > 0 ? `${taskCount} task${taskCount !== 1 ? "s" : ""}` : "";
     updateRelicBar(totalPts);
 
     if (plannedTasks.length === 0) {
@@ -1009,7 +1013,11 @@
   // ── Share link ────────────────────────────────────────────────────────────
 
   function copyShareLink() {
-    const hash = btoa(JSON.stringify(planned));
+    const noteIds = planned.filter(id => id < 0);
+    const notesPayload = {};
+    noteIds.forEach(id => { if (manualTasks[id]) notesPayload[id] = manualTasks[id]; });
+    const payload = noteIds.length > 0 ? { p: planned, m: notesPayload } : planned;
+    const hash = btoa(JSON.stringify(payload));
     const url = location.href.split('#')[0] + '#plan=' + hash;
     navigator.clipboard.writeText(url).then(() => {
       const el = document.getElementById("share-status");
@@ -1024,8 +1032,19 @@
     if (!m) return false;
     try {
       const payload = JSON.parse(atob(m[1]));
-      if (Array.isArray(payload)) planned = payload;
-      else if (Array.isArray(payload.p)) planned = payload.p; // legacy format
+      if (Array.isArray(payload)) {
+        planned = payload;
+      } else if (Array.isArray(payload.p)) {
+        planned = payload.p;
+        if (payload.m && typeof payload.m === "object") {
+          Object.entries(payload.m).forEach(([k, v]) => {
+            const id = parseInt(k, 10);
+            manualTasks[id] = v;
+          });
+          const minId = Math.min(...Object.keys(payload.m).map(Number));
+          if (minId <= nextManualId) nextManualId = minId - 1;
+        }
+      }
       history.replaceState(null, "", location.pathname + location.search);
       return true;
     } catch { return false; }
